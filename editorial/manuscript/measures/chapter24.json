@@ -1,0 +1,65 @@
+{
+  "program": "chain/17-complete/game/build/starbraze2.prg",
+  "prg_bytes": 48944,
+  "prg_sha256": "a13f1451f7dd8d7f1707ea4bacb8a3349207d7602a5f5db5d5d7d85771c0eafc",
+  "vice": "x64sc (VICE 3.10)",
+  "session": [
+    {
+      "command": "ll \"starbraze2.lbl\"",
+      "answer": [
+        "(C:$f8b1) (C:$f8b1)"
+      ]
+    },
+    {
+      "command": "break .title_input",
+      "answer": [
+        "BREAK: 1  C:$f8c0  (Stop on exec)",
+        "(C:$f8b1)"
+      ]
+    },
+    {
+      "command": "x",
+      "answer": [
+        "#1 (Stop on  exec f8c0)  239/$0ef,  59/$3b",
+        ".C:f8c0  AD BD 02    LDA .joy_prev  - A:00 X:FF Y:00 SP:ff ..-...Z.   32919260",
+        "(C:$f8c0)"
+      ]
+    },
+    {
+      "command": "m .sound_mode .sound_mode",
+      "answer": [
+        ">C:008e  01                                                   a",
+        "(C:$008f)"
+      ]
+    },
+    {
+      "command": "m .level .level",
+      "answer": [
+        ">C:0251  00                                                   @",
+        "(C:$0252)"
+      ]
+    },
+    {
+      "command": "m .held .held",
+      "answer": [
+        ">C:02bb  00                                                   @",
+        "(C:$02bc)"
+      ]
+    },
+    {
+      "command": "m e4 e6",
+      "answer": [
+        ">C:00e4  00 00 00                                             @@@",
+        "(C:$00e7)"
+      ]
+    },
+    {
+      "command": "r",
+      "answer": [
+        "  ADDR A  X  Y  SP 00 01 NV-BDIZC LIN CYC  STOPWATCH",
+        ".;f8c0 00 ff 00 ff 2f 35 00100010 239 059   32919260",
+        "(C:$00e7)"
+      ]
+    }
+  ]
+}

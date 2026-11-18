@@ -1,0 +1,1208 @@
+{
+  "results": [
+    {
+      "id": "01a-night-canyons",
+      "step": 1,
+      "kind": "variant",
+      "title": "The canyons in other colours",
+      "proved": true,
+      "prg_sha256": "3fa731ea5a29d94f43f3ccf880c8474da3ab87c858e105b10c0f54df9c020cd7",
+      "test": "PASS",
+      "frames": 100,
+      "checks": 25,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the level's $D022 and $D023: dark grey (11) and light blue (14)",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "01b-another-word",
+      "step": 1,
+      "kind": "variant",
+      "title": "Another word in the HUD",
+      "proved": true,
+      "prg_sha256": "ebd879b18b0dc7a71c8ab90a408eff9358b85d2b2568b3d9bfa1632d2afd812c",
+      "test": "PASS",
+      "frames": 100,
+      "checks": 25,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "HOMEWARD in the HUD's first row",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "01x-hud-not-acknowledged",
+      "step": 1,
+      "kind": "break",
+      "title": "The HUD's interrupt not acknowledged",
+      "proved": true,
+      "prg_sha256": "6ab442064d22916b96b080ce134b26337b2a18ba505275775e2ef19f5603adca",
+      "test": "FAIL",
+      "frames": 4,
+      "checks": 23,
+      "failed": [
+        "under the HUD: $d018 screen A, HUD's characters; $d016 multicolour, 38 columns, no scroll",
+        "colour registers under the HUD",
+        "the route, to the first failure (--fail-fast, frame 4)",
+        "near scroll and colours on line 20 (from 0.9 on line 21 too, when the interrupt waited for get_src's sei: the store's byte read under the I/O) (3 times)"
+      ],
+      "stopped_by": "under the HUD: $d018 screen A, HUD's characters; $d016 multicolour, 38 columns, no scroll",
+      "detail": "$d018=0x03 $d016=0xd7",
+      "first": "$d018=0x03 $d016=0xd7",
+      "shots": [
+        "variants/01-the-canyons/01x-hud-not-acknowledged/evidence/hud-not-acknowledged.png"
+      ]
+    },
+    {
+      "id": "02a-faster-canyon",
+      "step": 2,
+      "kind": "variant",
+      "title": "A faster canyon",
+      "proved": true,
+      "prg_sha256": "978bd678f9001ab18c9e4294b4fb5b58916ea13204249ffaee16b551946af9d6",
+      "test": "PASS",
+      "frames": 4356,
+      "checks": 28,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the arena sooner than in the step",
+          "true": true
+        },
+        {
+          "fact": "the camera never waited",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "02b-every-star-near",
+      "step": 2,
+      "kind": "variant",
+      "title": "Every star near",
+      "proved": true,
+      "prg_sha256": "f23cb9d627f44dca59e547c11f3d34a924aa2c180a5729e57ff48408d82aca97",
+      "test": "PASS",
+      "frames": 4356,
+      "checks": 29,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the arena at frame 4 256, as in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "02x-colours-left-behind",
+      "step": 2,
+      "kind": "break",
+      "title": "Colours left behind",
+      "proved": true,
+      "prg_sha256": "b48ec663f149d07c031069622e0886a26498133b0d7efd48832fe9f2fc84ffd8",
+      "test": "FAIL",
+      "frames": 217,
+      "checks": 27,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 217)",
+        "colour RAM as the model (216 times)",
+        "colour RAM rows 15-21, in the swap: row R moved before row R (0 times)",
+        "capture equals the reference picture (215 times)"
+      ],
+      "stopped_by": "colour RAM as the model",
+      "detail": "frame 16: cell 731 (row 18, column 11): 13 instead of 15",
+      "first": "colour RAM as the model: frame 16: cell 731 (row 18, column 11): 13 instead of 15",
+      "shots": [
+        "variants/02-scrolling/02x-colours-left-behind/evidence/colours-left-behind.png"
+      ]
+    },
+    {
+      "id": "03a-four-ships",
+      "step": 3,
+      "kind": "variant",
+      "title": "Four ships",
+      "proved": true,
+      "prg_sha256": "1f299842450670adcd03381ea200f7b58787036eebb02963c50278ecbc4f4a6e",
+      "test": "PASS",
+      "frames": 4886,
+      "checks": 34,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "fewer times without ships than in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "03b-harder-rock",
+      "step": 3,
+      "kind": "variant",
+      "title": "A harder rock",
+      "proved": true,
+      "prg_sha256": "07dd1c2e31e6fc0576a339aa325c92dc08bfdf975445091e96ba268ceb5b6d6a",
+      "test": "PASS",
+      "frames": 4886,
+      "checks": 34,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "pushed by the rock",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "03x-the-ninth-bit",
+      "step": 3,
+      "kind": "break",
+      "title": "The ninth bit",
+      "proved": true,
+      "prg_sha256": "841bc6a58a1689500fc8b09d0db3f8952c387d22448f5b3d8ab27f78ea4590f2",
+      "test": "FAIL",
+      "frames": 131,
+      "checks": 33,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 131)",
+        "the sprites' registers and pointers as the model (130 times)",
+        "capture equals the reference picture (129 times)"
+      ],
+      "stopped_by": "the sprites' registers and pointers as the model",
+      "detail": "frame 128: 008a008a00000000000000000000000000 03 02 0e0f000000000000 8081000000000000 instead of 008a008a00000000000000000000000003 03 02 0e0f000000000000 8081000000000000",
+      "first": "the sprites' registers and pointers as the model: frame 128: 008a008a00000000000000000000000000 03 02 0e0f000000000000 8081000000000000 instead of 008a008a00000000000000000000000003 03 02 0e0f000000000000 8081000000000000",
+      "shots": [
+        "variants/03-the-ships/03x-the-ninth-bit/evidence/the-ninth-bit.png"
+      ]
+    },
+    {
+      "id": "04a-bigger-wave",
+      "step": 4,
+      "kind": "variant",
+      "title": "A bigger wave",
+      "proved": true,
+      "prg_sha256": "83d5f0bb118bb634d1833b45c3178c5b7e65a6ff5ae9f49a101f4d3bd7f1afb9",
+      "test": "PASS",
+      "frames": 10804,
+      "checks": 43,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "more raiders come in than in the step (`Varkon 0 in`: kind 0, the raider)",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "04b-sharper-aim",
+      "step": 4,
+      "kind": "variant",
+      "title": "A sharper aim",
+      "proved": true,
+      "prg_sha256": "f49f1c5fb2bf46af0ce9326c12c50a7d98a294ee47918b551a66c64ede096311",
+      "test": "PASS",
+      "frames": 10804,
+      "checks": 43,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the aimed plasma's y speed in the data: 256 (in 256ths of a pixel a frame; in the step 128)",
+          "true": true
+        },
+        {
+          "fact": "the drones (kind 1) fired",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "04x-out-of-order",
+      "step": 4,
+      "kind": "break",
+      "title": "The order that is not",
+      "proved": true,
+      "prg_sha256": "879e650c346f61d3ea95a377c2e921628fb1694a2ff751becbfe90f4d10eca9f",
+      "test": "FAIL",
+      "frames": 61,
+      "checks": 42,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 61)",
+        "the multiplexer's order, plan, lines, left out as the model (60 times)",
+        "the sprites' registers and pointers as the model (60 times)",
+        "the multiplexer's writes: after the sprite's object before, before its own line (0 times)",
+        "the multiplexer's writes: the entry's place, ninth bit, pointers, colour as the model (0 times)",
+        "capture equals the reference picture (59 times)"
+      ],
+      "stopped_by": "the sprites' registers and pointers as the model",
+      "detail": "frame 1: 408a408a00000000000000000000000000 03 fe 0e0f000000000000 8081000000000000 instead of 408a408a568a0000000000000000000000 07 fe 0e0f0e0000000000 80819e0000000000",
+      "first": "the sprites' registers and pointers as the model: frame 1: 408a408a00000000000000000000000000 03 fe 0e0f000000000000 8081000000000000 instead of 408a408a568a0000000000000000000000 07 fe 0e0f0e0000000000 80819e0000000000",
+      "shots": [
+        "variants/04-the-varkon/04x-out-of-order/evidence/out-of-order.png"
+      ]
+    },
+    {
+      "id": "05a-ship-every-10000",
+      "step": 5,
+      "kind": "variant",
+      "title": "A ship every 10 000",
+      "proved": true,
+      "prg_sha256": "78ba20885b14f93e683c36351997f2df0650e49194e238e780d891433a2c8acd",
+      "test": "PASS",
+      "frames": 10804,
+      "checks": 44,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "a ship more without the route's aid",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "05b-sturdier-raiders",
+      "step": 5,
+      "kind": "variant",
+      "title": "Sturdier raiders",
+      "proved": true,
+      "prg_sha256": "e18e6dbe4c2b060abefa5dece51f8730b0e4c70126ef28be35352475ae2b0609",
+      "test": "PASS",
+      "frames": 10804,
+      "checks": 44,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "raiders hit and not destroyed (none in the step)",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "05x-counting-in-binary",
+      "step": 5,
+      "kind": "break",
+      "title": "Counting in binary",
+      "proved": true,
+      "prg_sha256": "773816f40c593f955688de71ca358a5635cc9cd5c24075a507da14a0f69af1fe",
+      "test": "FAIL",
+      "frames": 732,
+      "checks": 43,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 732)",
+        "both screens as the model (HUD) (731 times)",
+        "the score, the best, the next ship as the model (731 times)"
+      ],
+      "stopped_by": "both screens as the model (HUD)",
+      "detail": "frame 729: cell 930 (row 23, column 10): 1 instead of 2",
+      "first": "both screens as the model (HUD): frame 729: cell 930 (row 23, column 10): 1 instead of 2",
+      "shots": [
+        "variants/05-hits-and-score/05x-counting-in-binary/evidence/counting-in-binary.png"
+      ]
+    },
+    {
+      "id": "06a-one-capsule-more",
+      "step": 6,
+      "kind": "variant",
+      "title": "One capsule more",
+      "proved": true,
+      "prg_sha256": "1aa5149ff164477f4b34b55c0cfb1377c1ea5f5f0434798b1911c2f9c625a3a4",
+      "test": "PASS",
+      "frames": 10804,
+      "checks": 44,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "two W taken more than in the step (level 1 twice)",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "06b-heavier-missile",
+      "step": 6,
+      "kind": "variant",
+      "title": "A heavier missile",
+      "proved": true,
+      "prg_sha256": "aa4e0bd3f7796244e791e7f1c608e66a1f4455ebc5363af2b54d5041729f874a",
+      "test": "PASS",
+      "frames": 10804,
+      "checks": 44,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "every Varkon the missile meets destroyed (not so in the step)",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "06x-past-the-last-level",
+      "step": 6,
+      "kind": "break",
+      "title": "Past the last level",
+      "proved": true,
+      "prg_sha256": "a303c6d3ae851fb66f876c036f79d809079db7fd6c349d27dce443b87b1f5fc9",
+      "test": "FAIL",
+      "frames": 10789,
+      "checks": 43,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 10789)",
+        "the ship as the model (10788 times)",
+        "both screens as the model (HUD) (10788 times)",
+        "the objects in both banks as the model (10785 times)",
+        "the multiplexer's order, plan, lines, left out as the model (10785 times)",
+        "the score, the best, the next ship as the model (10785 times)",
+        "the weapons, the shots, the missile, the satellite, the blast as the model (10785 times)",
+        "the multiplexer's writes: after the sprite's object before, before its own line (19417 times)",
+        "the multiplexer's writes: all of the plan, every frame (10784 times)",
+        "the multiplexer's writes: the entry's place, ninth bit, pointers, colour as the model (19402 times)",
+        "capture equals the reference picture (10784 times)"
+      ],
+      "stopped_by": "both screens as the model (HUD)",
+      "detail": "frame 10768: cell 930 (row 23, column 10): 9 instead of 10",
+      "first": "both screens as the model (HUD): frame 10768: cell 930 (row 23, column 10): 9 instead of 10",
+      "shots": [
+        "variants/06-weapons-and-capsules/06x-past-the-last-level/evidence/past-the-last-level.png"
+      ]
+    },
+    {
+      "id": "07a-faster-theme",
+      "step": 7,
+      "kind": "variant",
+      "title": "A faster theme",
+      "proved": true,
+      "prg_sha256": "7346fa6e7a341144fb747329c2f0cc645fffa27d0b2582626636f79b6f3a97d6",
+      "test": "PASS",
+      "frames": 10804,
+      "checks": 46,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "more steps of the music than in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "07b-another-instrument",
+      "step": 7,
+      "kind": "variant",
+      "title": "Another instrument",
+      "proved": true,
+      "prg_sha256": "c3abb8c9b4f1b8b955977a339343b997d9ce4cee8c8a07b1adb756bec9cbb182",
+      "test": "PASS",
+      "frames": 10804,
+      "checks": 46,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "more notes that start with a sawtooth ($20) than in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "07x-silence",
+      "step": 7,
+      "kind": "break",
+      "title": "Silence",
+      "proved": true,
+      "prg_sha256": "903f6b8046fff30abbcfd40c5e28b74639c314048339a44d491cbab0990e9cdc",
+      "test": "FAIL",
+      "frames": 1,
+      "checks": 45,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 1)",
+        "the multiplexer's writes: after the sprite's object before, before its own line (0 times)",
+        "the multiplexer's writes: all of the plan, every frame (0 times)",
+        "the multiplexer's writes: the entry's place, ninth bit, pointers, colour as the model (0 times)",
+        "no frame lost: frame_count +1 a turn (0 times)",
+        "no frame lost: 19656 cycles from a turn to the next (CIA 2's timers, the test's clock) (0 times)",
+        "rows 0-9 of the next frame (stars, colour RAM): after the beam drew them, before it draws them again (0 times)",
+        "colour RAM rows 15-21, in the swap: row R moved before row R (0 times)",
+        "every swap: its rows 0-9 moved in the frame before (0 times)",
+        "far rows moved before row 11 (0 times)",
+        "near scroll and colours on line 20 (from 0.9 on line 21 too, when the interrupt waited for get_src's sei: the store's byte read under the I/O) (0 times)",
+        "far scroll and screen A in row 10 (lines 131-138) (0 times)",
+        "near scroll and the screen shown in row 14 (lines 163-170) (0 times)",
+        "the SID's copy into the SID at the top, lines 20-24 (0 times)",
+        "the sound as the model: the SID's copy, the voices of the music, the effects (1 times)",
+        "HUD's $d018 in the border, 226-227 (0 times)",
+        "HUD's $d016 before the badline of 227 (0 times)",
+        "capture equals the reference picture (0 times)"
+      ],
+      "stopped_by": "the sound as the model: the SID's copy, the voices of the music, the effects",
+      "detail": "frame 1: sid_shadow+24 0 instead of 15",
+      "first": "the sound as the model: the SID's copy, the voices of the music, the effects: frame 1: sid_shadow+24 0 instead of 15",
+      "shots": [
+        "variants/07-the-sid/07x-silence/evidence/silence.png"
+      ]
+    },
+    {
+      "id": "08a-tougher-core",
+      "step": 8,
+      "kind": "variant",
+      "title": "A tougher core",
+      "proved": true,
+      "prg_sha256": "e36c2fbc618f6ccbe8350703dd36104fce434d092ba64ec178950b4edf62980f",
+      "test": "PASS",
+      "frames": 17571,
+      "checks": 47,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the body moves more than in the step (a longer fight)",
+          "true": true
+        },
+        {
+          "fact": "the core destroyed twice, as in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "08b-faster-fans",
+      "step": 8,
+      "kind": "variant",
+      "title": "Faster fans",
+      "proved": true,
+      "prg_sha256": "b43e644a515f532d06bcdbbe38314e633a54cf79f4805ea34ad198ffbb18d6ac",
+      "test": "PASS",
+      "frames": 17571,
+      "checks": 47,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "more fans than in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "08x-never-flipped",
+      "step": 8,
+      "kind": "break",
+      "title": "The body never flipped",
+      "proved": true,
+      "prg_sha256": "d44838fb6e18b54c60602d3ad9d7175c92fa50bd7ec845452a0350a1e2a55d06",
+      "test": "FAIL",
+      "frames": 6176,
+      "checks": 46,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 6176)",
+        "both screens as the model (HUD) (6175 times)",
+        "the playfield's characters as the model (the stars; from 0.8 the boss's body and STAGE CLEAR's letters) (6175 times)",
+        "the boss as the model (its step, body, parts, bar) (12350 times)",
+        "the objects in both banks as the model (6174 times)",
+        "the multiplexer's order, plan, lines, left out as the model (6174 times)",
+        "the Varkon, their shots, the waves as the model (6174 times)",
+        "the weapons, the shots, the missile, the satellite, the blast as the model (6174 times)",
+        "the sprites' registers and pointers as the model (6174 times)",
+        "the multiplexer's writes: after the sprite's object before, before its own line (8732 times)",
+        "the multiplexer's writes: all of the plan, every frame (6173 times)",
+        "the multiplexer's writes: the entry's place, ninth bit, pointers, colour as the model (8713 times)",
+        "capture equals the reference picture (6173 times)"
+      ],
+      "stopped_by": "both screens as the model (HUD)",
+      "detail": "frame 5820: cell 639 (row 15, column 39): 0 instead of 109",
+      "first": "both screens as the model (HUD): frame 5820: cell 639 (row 15, column 39): 0 instead of 109",
+      "shots": [
+        "variants/08-siege-crawler/08x-never-flipped/evidence/never-flipped.png"
+      ]
+    },
+    {
+      "id": "09a-softer-segments",
+      "step": 9,
+      "kind": "variant",
+      "title": "Softer segments",
+      "proved": true,
+      "prg_sha256": "67ef876fa7a324c137eb1cd861859b055b9987c39d8716f422795a31c279a0aa",
+      "test": "PASS",
+      "frames": 24031,
+      "checks": 48,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "fewer gaps opened than in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "09b-wider-opening",
+      "step": 9,
+      "kind": "variant",
+      "title": "A wider opening",
+      "proved": true,
+      "prg_sha256": "3d2d456780df658d831274ac04dffd088943fa14064f14fbe3c12bbfef7ebd29",
+      "test": "PASS",
+      "frames": 24031,
+      "checks": 48,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the opening's radius in the data: 40",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "09x-half-a-sphere",
+      "step": 9,
+      "kind": "break",
+      "title": "Half a sphere",
+      "proved": true,
+      "prg_sha256": "21a82c33a02179b0441cc4a6f5ed29ee72f6bcf9fdcb2255b69684a5c49096c0",
+      "test": "FAIL",
+      "frames": 21416,
+      "checks": 47,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 21416)",
+        "the playfield's characters as the model (the stars; from 0.8 the boss's body and STAGE CLEAR's letters) (21415 times)",
+        "capture equals the reference picture (21411 times)"
+      ],
+      "stopped_by": "the playfield's characters as the model (the stars; from 0.8 the boss's body and STAGE CLEAR's letters)",
+      "detail": "frame 21394: byte 295 (row 7, column 15): 0 instead of 106",
+      "first": "the playfield's characters as the model (the stars; from 0.8 the boss's body and STAGE CLEAR's letters): frame 21394: byte 295 (row 7, column 15): 0 instead of 106",
+      "shots": [
+        "variants/09-shield-core/09x-half-a-sphere/evidence/half-a-sphere.png"
+      ]
+    },
+    {
+      "id": "10a-another-phase",
+      "step": 10,
+      "kind": "variant",
+      "title": "Another phase",
+      "proved": true,
+      "prg_sha256": "d180e2eb8d17d03aa7c367c656989fc191eb7e162f6a45f75c762359d17508f1",
+      "test": "PASS",
+      "frames": 29422,
+      "checks": 58,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "THE GRAVEYARD in the loading screen's words of phase 2",
+          "true": true
+        },
+        {
+          "fact": "phase 2's file read (LEVEL3), its screen checked",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "10b-longer-bar",
+      "step": 10,
+      "kind": "variant",
+      "title": "A longer bar",
+      "proved": true,
+      "prg_sha256": "4f02cf6c68c83ad35e78de1e2b17872106d5f5ffaba228c1cb1d84f0cda5db47",
+      "test": "PASS",
+      "frames": 29422,
+      "checks": 58,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the bar of 30 cells in the data",
+          "true": true
+        },
+        {
+          "fact": "files read, their screens checked",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "10x-kernal-left-out",
+      "step": 10,
+      "kind": "break",
+      "title": "The KERNAL left out",
+      "proved": true,
+      "prg_sha256": "ad70d4d27d2b84adb74ea34f1bae949156f6e4d5e60a122f6137692e671ef2eb",
+      "test": "FAIL",
+      "frames": 23422,
+      "checks": 57,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 23422)",
+        "both screens as the model (HUD) (23422 times)",
+        "a file's load: its records in place, byte for byte; file_now; the KERNAL out ($01 = $35) (0 times)",
+        "a file with a wrong sum (spoiled by the test as it comes): read whole, refused, INSERT THE DISK, read again (0 times)",
+        "the drive not answering (the files' drive written 9: none there): refused before a byte of the file, INSERT THE DISK, read when it answers (0 times)",
+        "a file from the right disk at the first try (0 times)",
+        "a file's load: the game's pages 0, 2 and 3 given back, as they were when the try that read the file began (0 times)",
+        "the SID silent while a file loads (its volume 0: VICE's monitor reads the last value written) (0 times)",
+        "the loading screen seen with its bar half full, and INSERT THE DISK when the file did not come right (0 times)",
+        "the loading screen: PHASE n, its name (the file's phase), the bar as far as the file came, LOADING; INSERT THE DISK when it did not come right; shown on screen A with the HUD's characters (0 times)"
+      ],
+      "stopped_by": "both screens as the model (HUD)",
+      "detail": "frame 23422: cell 0 (row 0, column 0): 4 instead of 1",
+      "first": "both screens as the model (HUD): frame 23422: cell 0 (row 0, column 0): 4 instead of 1",
+      "shots": [
+        "variants/10-the-disk/10x-kernal-left-out/evidence/kernal-left-out.png"
+      ]
+    },
+    {
+      "id": "11a-tougher-warden",
+      "step": 11,
+      "kind": "variant",
+      "title": "A tougher WARDEN",
+      "proved": true,
+      "prg_sha256": "0c20df5504336992d383a256c075d059190a14a232c2d7d79fb71b7ee67bc47a",
+      "test": "PASS",
+      "frames": 31791,
+      "checks": 61,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the core's phase longer than in the step (more shards shed)",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "11b-faster-guns",
+      "step": 11,
+      "kind": "variant",
+      "title": "Faster guns",
+      "proved": true,
+      "prg_sha256": "0eaf595840227a0b260492fd6fdc8d6508e03e0d5a65f9da030ff6a6527b251e",
+      "test": "PASS",
+      "frames": 31791,
+      "checks": 61,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "more fans than in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "11x-jumps-swapped",
+      "step": 11,
+      "kind": "break",
+      "title": "The jumps in the wrong order",
+      "proved": true,
+      "prg_sha256": "0eaf595840227a0b260492fd6fdc8d6508e03e0d5a65f9da030ff6a6527b251e",
+      "test": "FAIL",
+      "frames": 28445,
+      "checks": 60,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 28445)",
+        "the boss as the model (its step, body, parts, bar) (28444 times)",
+        "the GRAVEYARD WARDEN's memory as the model (the arena's cells under it, kept; its drawing after the patches) (0 times)",
+        "the drive not answering (the files' drive written 9: none there): refused before a byte of the file, INSERT THE DISK, read when it answers (0 times)",
+        "a file from the right disk at the first try (0 times)"
+      ],
+      "stopped_by": "the boss as the model (its step, body, parts, bar)",
+      "detail": "frame 28414: boss_timer 0 instead of 1, part_x 0 instead of 12, part_x+1 0 instead of 1",
+      "first": "the boss as the model (its step, body, parts, bar): frame 28414: boss_timer 0 instead of 1, part_x 0 instead of 12, part_x+1 0 instead of 1",
+      "shots": [
+        "variants/11-graveyard-warden/11x-jumps-swapped/evidence/jumps-swapped.png"
+      ]
+    },
+    {
+      "id": "12a-busier-hangar",
+      "step": 12,
+      "kind": "variant",
+      "title": "A busier hangar",
+      "proved": true,
+      "prg_sha256": "a7a33550b8ffe3ca3096178e50acdbdfe2eda04ebc8596785826912503dd664b",
+      "test": "PASS",
+      "frames": 38503,
+      "checks": 63,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "more scouts out of the hangar than in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "12b-sturdier-turrets",
+      "step": 12,
+      "kind": "variant",
+      "title": "Sturdier turrets",
+      "proved": true,
+      "prg_sha256": "e6cb6587b44acdcf0f6a7258b3ed988bd26c1d431d45ebee5722689415536832",
+      "test": "PASS",
+      "frames": 38503,
+      "checks": 63,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the turrets fire more fans than in the step (they last longer)",
+          "true": true
+        },
+        {
+          "fact": "all four destroyed, as in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "12x-timer-not-wound",
+      "step": 12,
+      "kind": "break",
+      "title": "A timer not wound again",
+      "proved": true,
+      "prg_sha256": "a7a33550b8ffe3ca3096178e50acdbdfe2eda04ebc8596785826912503dd664b",
+      "test": "FAIL",
+      "frames": 35689,
+      "checks": 62,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 35689)",
+        "the boss as the model (its step, body, parts, bar) (35688 times)",
+        "the drive not answering (the files' drive written 9: none there): refused before a byte of the file, INSERT THE DISK, read when it answers (0 times)"
+      ],
+      "stopped_by": "the boss as the model (its step, body, parts, bar)",
+      "detail": "frame 35638: mouth_timer 0 instead of 200",
+      "first": "the boss as the model (its step, body, parts, bar): frame 35638: mouth_timer 0 instead of 200",
+      "shots": [
+        "variants/12-varkon-corvette/12x-timer-not-wound/evidence/timer-not-wound.png"
+      ]
+    },
+    {
+      "id": "13a-shorter-warning",
+      "step": 13,
+      "kind": "variant",
+      "title": "A shorter warning",
+      "proved": true,
+      "prg_sha256": "73ea6cc8f89007bb51c7934fb2a8e3bfab97ae15072e91ee1201f168dfdd8491",
+      "test": "PASS",
+      "frames": 46549,
+      "checks": 65,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "more rays in the fight than in the step (each comes sooner)",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "13b-longer-ray",
+      "step": 13,
+      "kind": "variant",
+      "title": "A longer ray",
+      "proved": true,
+      "prg_sha256": "73ea6cc8f89007bb51c7934fb2a8e3bfab97ae15072e91ee1201f168dfdd8491",
+      "test": "PASS",
+      "frames": 46549,
+      "checks": 65,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "more frames of ray than in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "13x-arena-not-kept",
+      "step": 13,
+      "kind": "break",
+      "title": "The arena not kept",
+      "proved": true,
+      "prg_sha256": "73ea6cc8f89007bb51c7934fb2a8e3bfab97ae15072e91ee1201f168dfdd8491",
+      "test": "FAIL",
+      "frames": 44248,
+      "checks": 64,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 44248)",
+        "both screens as the model (HUD) (44247 times)",
+        "colour RAM as the model (44247 times)",
+        "the DEFENSE TURRET ARRAY's memory as the model (the arena's cells under its ray, kept; its parts' pictures over the level's) (52 times)",
+        "capture equals the reference picture (44240 times)",
+        "the drive not answering (the files' drive written 9: none there): refused before a byte of the file, INSERT THE DISK, read when it answers (0 times)"
+      ],
+      "stopped_by": "the DEFENSE TURRET ARRAY's memory as the model (the arena's cells under its ray, kept; its parts' pictures over the level's)",
+      "detail": "frame 44197: kept byte 0 (row 0, column 0): 255 instead of 0",
+      "first": "the DEFENSE TURRET ARRAY's memory as the model (the arena's cells under its ray, kept; its parts' pictures over the level's): frame 44197: kept byte 0 (row 0, column 0): 255 instead of 0",
+      "shots": [
+        "variants/13-defense-turret-array/13x-arena-not-kept/evidence/arena-not-kept.png"
+      ]
+    },
+    {
+      "id": "14a-tougher-turrets",
+      "step": 14,
+      "kind": "variant",
+      "title": "Tougher turrets",
+      "proved": true,
+      "prg_sha256": "9237bad8878d1ab9376bbc9691afbe6d966e7c7e2bb486cd28f8a31d7f092160",
+      "test": "PASS",
+      "frames": 56558,
+      "checks": 67,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the turrets come out more times than in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "14b-slower-fans",
+      "step": 14,
+      "kind": "variant",
+      "title": "Slower fans",
+      "proved": true,
+      "prg_sha256": "9237bad8878d1ab9376bbc9691afbe6d966e7c7e2bb486cd28f8a31d7f092160",
+      "test": "PASS",
+      "frames": 56558,
+      "checks": 67,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "fewer turret fans than in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "14x-bar-not-told",
+      "step": 14,
+      "kind": "break",
+      "title": "The HUD not told",
+      "proved": true,
+      "prg_sha256": "144aebd3e7883f2605257adfbf007cc85d3b60cd69fb49edd0e44c4a8c931a82",
+      "test": "FAIL",
+      "frames": 5849,
+      "checks": 66,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 5849)",
+        "both screens as the model (HUD) (5848 times)",
+        "the GRAVEYARD WARDEN's variables as the model (its ports, the guns' lives, the patches wanted and made, the rows shown, its colour, the body being made) (0 times)",
+        "the GRAVEYARD WARDEN's memory as the model (the arena's cells under it, kept; its drawing after the patches) (0 times)",
+        "the VARKON CORVETTE's variables as the model (its turrets destroyed and their Varkon, the columns shown, its colours, its phases made, the body being made) (0 times)",
+        "the VARKON CORVETTE's memory as the model (the arena's cells under its way, kept; its phases 1-3 once made) (0 times)",
+        "the DEFENSE TURRET ARRAY's variables as the model (its turrets destroyed, their Varkon and lives, the rows in turn, the patches wanted and drawn, its rows drawn, its codes and pictures made, its ray, its colours) (0 times)",
+        "the DEFENSE TURRET ARRAY's memory as the model (the arena's cells under its ray, kept; its parts' pictures over the level's) (0 times)",
+        "the SUPER-COMPUTER VARKON's variables as the model (the ring whose turn it is, its angle, its plates' Varkon; the elements shown, wanted, drawn; the housing's and the area's rows; its codes and pictures made; ENTER's step; the rings' and the turrets' cycle; the core's shot; the lights; its colours; the turrets; the core's fan; the cells to draw) (0 times)",
+        "the SUPER-COMPUTER VARKON's memory as the model (its parts' pictures over the level's) (0 times)",
+        "a file from the disk only when the level's file is not in the store, as the model (0 times)",
+        "a file's load: its records in place, byte for byte; file_now; the KERNAL out ($01 = $35) (0 times)",
+        "a file with a wrong sum (spoiled by the test as it comes): read whole, refused, INSERT THE DISK, read again (0 times)",
+        "the drive not answering (the files' drive written 9: none there): refused before a byte of the file, INSERT THE DISK, read when it answers (0 times)",
+        "a file from the right disk at the first try (0 times)",
+        "a file's load: the game's pages 0, 2 and 3 given back, as they were when the try that read the file began (0 times)",
+        "the SID silent while a file loads (its volume 0: VICE's monitor reads the last value written) (0 times)",
+        "the loading screen seen with its bar half full, and INSERT THE DISK when the file did not come right (0 times)",
+        "the loading screen: PHASE n, its name (the file's phase), the bar as far as the file came, LOADING; INSERT THE DISK when it did not come right; shown on screen A with the HUD's characters (0 times)"
+      ],
+      "stopped_by": "both screens as the model (HUD)",
+      "detail": "frame 5818: cell 949 (row 23, column 29): 44 instead of 45",
+      "first": "both screens as the model (HUD): frame 5818: cell 949 (row 23, column 29): 44 instead of 45",
+      "shots": [
+        "variants/14-super-computer/14x-bar-not-told/evidence/bar-not-told.png"
+      ]
+    },
+    {
+      "id": "15a-forty-five-seconds",
+      "step": 15,
+      "kind": "variant",
+      "title": "Forty-five seconds",
+      "proved": true,
+      "prg_sha256": "08770b1f4e967d2e97bbaa44d1e63f1d74ec44479d33e9431ad9e1c031695d08",
+      "test": "PASS",
+      "frames": 62309,
+      "checks": 69,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the time over more often than in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "15b-fast-half-sooner",
+      "step": 15,
+      "kind": "variant",
+      "title": "The fast half sooner",
+      "proved": true,
+      "prg_sha256": "08770b1f4e967d2e97bbaa44d1e63f1d74ec44479d33e9431ad9e1c031695d08",
+      "test": "PASS",
+      "frames": 62309,
+      "checks": 69,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "more frames at a pixel a frame than in the step",
+          "true": true
+        },
+        {
+          "fact": "the victory, as in the step",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "15x-second-a-frame",
+      "step": 15,
+      "kind": "break",
+      "title": "A second a frame",
+      "proved": true,
+      "prg_sha256": "08770b1f4e967d2e97bbaa44d1e63f1d74ec44479d33e9431ad9e1c031695d08",
+      "test": "FAIL",
+      "frames": 55562,
+      "checks": 68,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 55562)",
+        "both screens as the model (HUD) (55561 times)",
+        "(0.8.13) the escape's variables as the model (its step, the second's frames, the seconds left, the time over, its timer, its count, the seconds to count, its screen shown) (53 times)",
+        "the drive not answering (the files' drive written 9: none there): refused before a byte of the file, INSERT THE DISK, read when it answers (0 times)"
+      ],
+      "stopped_by": "both screens as the model (HUD)",
+      "detail": "frame 55531: cell 954 (row 23, column 34): 6 instead of 7",
+      "first": "both screens as the model (HUD): frame 55531: cell 954 (row 23, column 34): 6 instead of 7",
+      "shots": [
+        "variants/15-the-escape/15x-second-a-frame/evidence/second-a-frame.png"
+      ]
+    },
+    {
+      "id": "16a-another-sentence",
+      "step": 16,
+      "kind": "variant",
+      "title": "Another sentence",
+      "proved": true,
+      "prg_sha256": "1b55ff1cde55e4e89615fbea9f8f083e6ab3e20648951f8b3c5a0997bac23821",
+      "test": "PASS",
+      "frames": 73799,
+      "checks": 77,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "the title's screen checked against the variant's title.py (its sentence) and passed",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "16b-longer-game-over",
+      "step": 16,
+      "kind": "variant",
+      "title": "A longer GAME OVER",
+      "proved": true,
+      "prg_sha256": "504f8dfa323e3608484e940333dba38664a096cbc7f251c9842bb0b5e65f7a69",
+      "test": "PASS",
+      "frames": 73799,
+      "checks": 77,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "GAME OVER's wait: 250 turns held each of the three times (the step: 150)",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "16x-flickering-pause",
+      "step": 16,
+      "kind": "break",
+      "title": "A pause that flickers",
+      "proved": true,
+      "prg_sha256": "f427724faebbea6e312d7d6c0f45c7e5c26fc0a675ca622ebf2c22719208848b",
+      "test": "FAIL",
+      "frames": 73789,
+      "checks": 74,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 73789)",
+        "capture equals the reference picture (74473 times)"
+      ],
+      "stopped_by": "capture equals the reference picture",
+      "detail": "frame 73784: 5139 pixels differ",
+      "first": "capture equals the reference picture: frame 73784: 5139 pixels differ",
+      "shots": [
+        "variants/16-the-states/16x-flickering-pause/evidence/flickering-pause.png"
+      ]
+    },
+    {
+      "id": "17a-slower-title-theme",
+      "step": 17,
+      "kind": "variant",
+      "title": "A slower title theme",
+      "proved": true,
+      "prg_sha256": "692b1dd1a16ade2506cceea717b362f648e5834be6266d449bee0e296aa45517",
+      "test": "PASS",
+      "frames": 73799,
+      "checks": 77,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "fewer steps of music than in the step (the title's theme slower, in the route's titles)",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "17b-quicker-stage-clear",
+      "step": 17,
+      "kind": "variant",
+      "title": "A quicker STAGE CLEAR",
+      "proved": true,
+      "prg_sha256": "3c9873995c372659a1b37e0e106a752b96eadf385efb030733d39fc1633c3bab",
+      "test": "PASS",
+      "frames": 73799,
+      "checks": 77,
+      "failed": [],
+      "facts": [
+        {
+          "fact": "fewer frames with music than in the step (each STAGE CLEAR's fanfare over sooner)",
+          "true": true
+        }
+      ]
+    },
+    {
+      "id": "17x-level-song-again",
+      "step": 17,
+      "kind": "break",
+      "title": "The level's song again",
+      "proved": true,
+      "prg_sha256": "79500fbf7c35bbbf1e677ff435efa46eee427a0dcdeb2da13a7b0058cf756496",
+      "test": "FAIL",
+      "frames": 5997,
+      "checks": 74,
+      "failed": [
+        "the route, to the first failure (--fail-fast, frame 5997)",
+        "the GRAVEYARD WARDEN's variables as the model (its ports, the guns' lives, the patches wanted and made, the rows shown, its colour, the body being made) (0 times)",
+        "the GRAVEYARD WARDEN's memory as the model (the arena's cells under it, kept; its drawing after the patches) (0 times)",
+        "the VARKON CORVETTE's variables as the model (its turrets destroyed and their Varkon, the columns shown, its colours, its phases made, the body being made) (0 times)",
+        "the VARKON CORVETTE's memory as the model (the arena's cells under its way, kept; its phases 1-3 once made) (0 times)",
+        "the DEFENSE TURRET ARRAY's variables as the model (its turrets destroyed, their Varkon and lives, the rows in turn, the patches wanted and drawn, its rows drawn, its codes and pictures made, its ray, its colours) (0 times)",
+        "the DEFENSE TURRET ARRAY's memory as the model (the arena's cells under its ray, kept; its parts' pictures over the level's) (0 times)",
+        "the SUPER-COMPUTER VARKON's variables as the model (the ring whose turn it is, its angle, its plates' Varkon; the elements shown, wanted, drawn; the housing's and the area's rows; its codes and pictures made; ENTER's step; the rings' and the turrets' cycle; the core's shot; the lights; its colours; the turrets; the core's fan; the cells to draw) (0 times)",
+        "the SUPER-COMPUTER VARKON's memory as the model (its parts' pictures over the level's) (0 times)",
+        "(0.8.13) the escape's variables as the model (its step, the second's frames, the seconds left, the time over, its timer, its count, the seconds to count, its screen shown) (0 times)",
+        "(0.8.13) the escape's code as its file, unpacked by the station's module a piece a frame (its count and pointers as the model); its speed, $d021, the falling pieces' pictures as the model (0 times)",
+        "the sound as the model: the SID's copy, the voices of the music, the effects (5996 times)",
+        "a file from the disk only when the level's file is not in the store, as the model (0 times)",
+        "a file's load: its records in place, byte for byte; file_now; the KERNAL out ($01 = $35) (0 times)",
+        "a file with a wrong sum (spoiled by the test as it comes): read whole, refused, INSERT THE DISK, read again (0 times)",
+        "the drive not answering (the files' drive written 9: none there): refused before a byte of the file, INSERT THE DISK, read when it answers (0 times)",
+        "a file from the right disk at the first try (0 times)",
+        "a file's load: the game's pages 0, 2 and 3 given back, as they were when the try that read the file began (0 times)",
+        "the SID silent while a file loads (its volume 0: VICE's monitor reads the last value written) (0 times)",
+        "the loading screen seen with its bar half full, and INSERT THE DISK when the file did not come right (0 times)",
+        "the loading screen: PHASE n, its name (the file's phase), the bar as far as the file came, LOADING; INSERT THE DISK when it did not come right; shown on screen A with the HUD's characters (0 times)"
+      ],
+      "stopped_by": "the sound as the model: the SID's copy, the voices of the music, the effects",
+      "detail": "frame 5992: mus_song+0 0 instead of 2, v_list_lo+0 91 instead of 140, v_list_lo+1 103 instead of 174, v_list_lo+2 177 instead of 208, v_list_hi+0 241 instead of 135, v_list_hi+1 241 instead of 135",
+      "first": "the sound as the model: the SID's copy, the voices of the music, the effects: frame 5992: mus_song+0 0 instead of 2, v_list_lo+0 91 instead of 140, v_list_lo+1 103 instead of 174, v_list_lo+2 177 instead of 208, v_list_hi+0 241 instead of 135, v_list_hi+1 241 instead of 135",
+      "shots": [
+        "variants/17-complete/17x-level-song-again/evidence/level-song-again.png"
+      ]
+    }
+  ],
+  "bases": [
+    {
+      "id": "base",
+      "step": 2,
+      "kind": "variant",
+      "title": "The step as it is",
+      "proved": true,
+      "prg_sha256": "02e17c61edf666cb458fb8cc8b6856480e818c8bdaf5a6dcd95cd5d8ad8a6d10",
+      "test": "PASS",
+      "frames": 4356,
+      "checks": 29,
+      "failed": [],
+      "facts": []
+    },
+    {
+      "id": "base",
+      "step": 3,
+      "kind": "variant",
+      "title": "The step as it is",
+      "proved": true,
+      "prg_sha256": "18bc1b74011fe5cc0ef4e679eb8d1912f1372c196a516e8538aceee17e9cf686",
+      "test": "PASS",
+      "frames": 4886,
+      "checks": 36,
+      "failed": [],
+      "facts": []
+    },
+    {
+      "id": "base",
+      "step": 4,
+      "kind": "variant",
+      "title": "The step as it is",
+      "proved": true,
+      "prg_sha256": "ec1ed16586186d5728df4a4ba764c56187f2b97632d85db73ad874f09bf9449c",
+      "test": "PASS",
+      "frames": 10804,
+      "checks": 46,
+      "failed": [],
+      "facts": []
+    },
+    {
+      "id": "base",
+      "step": 5,
+      "kind": "variant",
+      "title": "The step as it is",
+      "proved": true,
+      "prg_sha256": "ddf7e2de0970e6c4e22a8f63810260f4c2368559c3c087869719d06eb6c90dd9",
+      "test": "PASS",
+      "frames": 10804,
+      "checks": 48,
+      "failed": [],
+      "facts": []
+    },
+    {
+      "id": "base",
+      "step": 6,
+      "kind": "variant",
+      "title": "The step as it is",
+      "proved": true,
+      "prg_sha256": "24644cff73f802169f3e545426d858c6f9ecf78ebb4fa7d590d29af86d522f23",
+      "test": "PASS",
+      "frames": 10804,
+      "checks": 49,
+      "failed": [],
+      "facts": []
+    },
+    {
+      "id": "base",
+      "step": 7,
+      "kind": "variant",
+      "title": "The step as it is",
+      "proved": true,
+      "prg_sha256": "53ebcd06995d7ba2f7bce34b7c77ba02254652ed2e71ea94d0e93acd69a54ad1",
+      "test": "PASS",
+      "frames": 10804,
+      "checks": 52,
+      "failed": [],
+      "facts": []
+    },
+    {
+      "id": "base",
+      "step": 8,
+      "kind": "variant",
+      "title": "The step as it is",
+      "proved": true,
+      "prg_sha256": "26159f829aa6e89406e942645a832408c13a65d16f99b14485d2977ab1379251",
+      "test": "PASS",
+      "frames": 17571,
+      "checks": 54,
+      "failed": [],
+      "facts": []
+    },
+    {
+      "id": "base",
+      "step": 17,
+      "kind": "variant",
+      "title": "The step as it is",
+      "proved": true,
+      "prg_sha256": "6e35f76b3363abd2fc1a727c65b845da24dac7ae15ef804f8606f4b7606f468f",
+      "test": "PASS",
+      "frames": 73799,
+      "checks": 77,
+      "failed": [],
+      "facts": []
+    }
+  ]
+}

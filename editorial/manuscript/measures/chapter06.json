@@ -1,0 +1,31 @@
+{
+  "try_the_titan": {
+    "offsets": [
+      7693
+    ],
+    "addresses": [
+      "$260C"
+    ],
+    "before": [
+      "00"
+    ],
+    "after": [
+      "02"
+    ],
+    "sha256_after": "3fe58ebad524d7eff0570e3dc97d33f8d1c21a6495cb3d385cdf116aa55c4c9c",
+    "same_size": true,
+    "cycles": 8000000,
+    "screen_size": [
+      384,
+      272
+    ],
+    "pixels_changed": 349,
+    "colour_pairs": 28,
+    "changed_box": [
+      72,
+      125,
+      152,
+      234
+    ]
+  }
+}

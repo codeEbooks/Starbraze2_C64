@@ -1,0 +1,224 @@
+{
+  "step": 1,
+  "program": "variants/01-the-canyons/01a-night-canyons/game/build/test/starbraze2.prg",
+  "prg_bytes": 33102,
+  "prg_sha256": "3fa731ea5a29d94f43f3ccf880c8474da3ab87c858e105b10c0f54df9c020cd7",
+  "vice": "/usr/local/bin/x64sc",
+  "frames": 100,
+  "events": {
+    "swap": 0,
+    "hold": 0,
+    "far": 0,
+    "restart": 0,
+    "gameover": 0
+  },
+  "ship_events": {},
+  "varkon_events": {},
+  "sound_events": {},
+  "boss_events": {},
+  "escape_events": {},
+  "escape_frames_not_compared_as_pictures": {
+    "frames": 0,
+    "first": [],
+    "last": []
+  },
+  "multiplexer": {
+    "frames": 0,
+    "left out": 0,
+    "crowded": 0,
+    "left out: the object itself": 0,
+    "left out: an entry, for a later one": 0,
+    "most shown": 0,
+    "most objects": 0,
+    "frames with some left out": 0,
+    "left_out_by_class": {
+      "ship's shots": 0,
+      "Varkon": 0,
+      "Varkon's shots": 0
+    }
+  },
+  "cycles_from_joy_ready_to_frame_ready": {
+    "stage None": {
+      "turns": 100,
+      "max_cycles": 0,
+      "min_cycles": 0
+    }
+  },
+  "deadlines_smallest_margin": {},
+  "multiplexer_write_lines_after_its_start": null,
+  "ahead_end": null,
+  "rows_0_9_in_a_level_start_turn": 0,
+  "turn_cycles": {
+    "turns": 99,
+    "min": 19652,
+    "max": 19661
+  },
+  "sound_cycles": {
+    "frames": 0,
+    "max": null,
+    "mean": null
+  },
+  "colours_at_once": {
+    "turns": 0,
+    "first": []
+  },
+  "ahead_end_by_turn": {},
+  "ahead_end_by_level": {},
+  "captures": [
+    {
+      "file": "variants/01-the-canyons/01a-night-canyons/evidence/step01-a.png",
+      "frame": 50,
+      "sha256": "21819f2566fc2f5255e0302cb1cb356d9bda338d93335f4e2cc21250b719a317"
+    }
+  ],
+  "file_loads": [],
+  "turns_held": {
+    "turns": 0,
+    "by_kind": {}
+  },
+  "titles": 0,
+  "top_interrupt_on_line_21_after_get_src": [],
+  "seconds": 7,
+  "checks": [
+    {
+      "check": "VIC-II bank 1 ($4000)",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "under the HUD: $d018 screen A, HUD's characters; $d016 multicolour, 38 columns, no scroll",
+      "pass": true,
+      "detail": "$d018=0x05 $d016=0xd0"
+    },
+    {
+      "check": "$d011: 25 rows, screen on",
+      "pass": true,
+      "detail": "0x1b"
+    },
+    {
+      "check": "colour registers under the HUD",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "playfield characters at $4800 (stars as the model)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD characters at $5000",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the packed levels in place ($d000, 6477 bytes, from 0.8.4 under the I/O and the KERNAL)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the title's module in place ($f800, 129 bytes, under the KERNAL: move_store, from the PRG's two pieces)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the camera never waited for the back screen",
+      "pass": true,
+      "detail": "0 waits"
+    },
+    {
+      "check": "the route",
+      "pass": true,
+      "detail": "100 frames"
+    },
+    {
+      "check": "step 1: level 1's start, still: the camera at 0 all along",
+      "pass": true,
+      "detail": "cameras [0]"
+    },
+    {
+      "check": "camera, screen, stage, far column, scrolls as the model (100 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "both screens as the model (HUD) (100 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "colour RAM as the model (100 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the playfield's characters as the model (the stars; from 0.8 the boss's body and STAGE CLEAR's letters) (100 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the level and its beams' cycle as the model (100 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the level's tables unpacked at its start (LEVEL_W1, LEVEL_W2; from 0.8.4 its pictures) as its files (1 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no frame lost: frame_count +1 a turn (99 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no frame lost: 19656 cycles from a turn to the next (CIA 2's timers, the test's clock) (99 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "near scroll and colours on line 20 (from 0.9 on line 21 too, when the interrupt waited for get_src's sei: the store's byte read under the I/O) (64 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "far scroll and screen A in row 10 (lines 131-138) (64 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "near scroll and the screen shown in row 14 (lines 163-170) (64 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD's $d018 in the border, 226-227 (64 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD's $d016 before the badline of 227 (64 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "capture equals the reference picture (99 times)",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "end": {
+    "camera": 0,
+    "level": 0,
+    "lives": 3,
+    "ship_type": 0,
+    "score": 0,
+    "best": 0,
+    "arena_frame": null,
+    "hud": [
+      "????????????????????????????????????????",
+      "  SCORE 000000  HI 000000    VARKONIA   ",
+      "  SHIELD ????   WEAPON ????  SHIPS ???  "
+    ]
+  },
+  "result": "PASS"
+}

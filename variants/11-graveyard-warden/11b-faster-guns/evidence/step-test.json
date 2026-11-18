@@ -1,0 +1,1323 @@
+{
+  "step": 11,
+  "program": "variants/11-graveyard-warden/11b-faster-guns/game/build/test/starbraze2.prg",
+  "prg_bytes": 48688,
+  "prg_sha256": "0eaf595840227a0b260492fd6fdc8d6508e03e0d5a65f9da030ff6a6527b251e",
+  "vice": "/usr/local/bin/x64sc",
+  "frames": 31791,
+  "events": {
+    "swap": 1643,
+    "hold": 0,
+    "far": 820,
+    "restart": 8,
+    "gameover": 0
+  },
+  "ship_events": {
+    "shot 0 fired": 184,
+    "weapon 1.1 fires": 57,
+    "Fire: no room for the volley": 2775,
+    "Fire with four shots flying": 1919,
+    "shot 0 past the edge": 132,
+    "pushed down from the overhang": 9,
+    "on the rock while blinking: no damage": 14,
+    "shot 0 half 0 on the rock": 15,
+    "shot 0 half 1 on the rock": 11,
+    "two notches lost": 14,
+    "pushed up from the floor": 4,
+    "exploded": 6,
+    "a ship lost: in again from the left": 6,
+    "shot 1 fired": 28,
+    "weapon 2.1 fires": 28,
+    "shot 1 past the edge": 11,
+    "shot 1 half 0 on the rock": 14,
+    "pushed back from a wall": 17,
+    "shot 2 fired": 91,
+    "weapon 3.1 fires": 91,
+    "shot 2 half 0 on the rock": 4,
+    "shot 2 past the edge": 62,
+    "no ships left: three more": 1,
+    "the ship in again after the key L": 4,
+    "capsule W taken": 5,
+    "weapon 1.2 fires": 100,
+    "capsule S taken": 2,
+    "shot 8 fired": 161,
+    "weapon 2.2 fires": 161,
+    "shot 8 half 0 on the rock": 10,
+    "shot 8 half 1 on the rock": 10,
+    "shot 8 past the edge": 131,
+    "capsule M taken": 2,
+    "missile away": 579,
+    "a weapon level lost": 3,
+    "missile lands": 393,
+    "missile follows the floor": 564,
+    "missile on a wall": 137,
+    "missile off a drop": 53,
+    "a ship more": 2,
+    "missile on a wall, falling": 20,
+    "shot 9 fired": 233,
+    "weapon 3.2 fires": 233,
+    "missile past the edge": 59,
+    "capsule E taken": 2,
+    "capsule E past its most: the bonus": 1,
+    "capsule E past its most: 500 points": 1,
+    "capsule O taken": 1,
+    "the satellite catches up, left": 45,
+    "the satellite catches up, up": 193,
+    "the satellite: no place left": 391,
+    "the satellite fires": 86,
+    "the satellite catches up, down": 211,
+    "shot 14 past the edge": 69,
+    "shot 9 past the edge": 155,
+    "missile on the boss's body": 144,
+    "shot 9 half 0 on the rock": 3,
+    "the ship flies off": 4,
+    "the satellite catches up, right": 126,
+    "the ship gone, right": 4,
+    "the ship in again after STAGE CLEAR": 4,
+    "shot 12 fired": 1013,
+    "weapon 3.3 fires": 1013,
+    "blast 1": 394,
+    "blast over": 404,
+    "missile into a river": 20,
+    "missile under the playfield": 188,
+    "shot 12 past the edge": 617,
+    "shot 3 fired": 23,
+    "shot 4 fired": 23,
+    "shot 5 fired": 23,
+    "weapon 1.3 fires": 23,
+    "shot 3 past the edge": 9,
+    "shot 4 past the edge": 7,
+    "shot 5 past the edge": 9,
+    "shot 14 half 0 on the rock": 8,
+    "shot 4 half 0 on the rock": 13,
+    "shot 3 half 0 on the rock": 9,
+    "shot 5 half 0 on the rock": 9,
+    "capsule M past its most: the bonus": 1,
+    "capsule M past its most: 500 points": 1,
+    "shot 10 fired": 82,
+    "weapon 2.3 fires": 82,
+    "shot 10 half 0 on the rock": 3,
+    "shot 10 past the edge": 70,
+    "shot 13 fired": 78,
+    "weapon 3.4 fires": 78,
+    "shot 13 past the edge": 67,
+    "blast 2": 11,
+    "shot 6 fired": 27,
+    "shot 7 fired": 27,
+    "weapon 1.4 fires": 27,
+    "shot 7 half 1 on the rock": 13,
+    "shot 6 half 0 on the rock": 20,
+    "shot 6 past the edge": 9,
+    "shot 7 past the edge": 14,
+    "shot 7 half 0 on the rock": 12,
+    "shot 6 half 1 on the rock": 11,
+    "the score at its most": 187,
+    "capsule taken while blinking": 1,
+    "the shield full again": 1,
+    "shot 11 fired": 66,
+    "weapon 2.4 fires": 33,
+    "shot 11 past the edge": 66,
+    "shot 6 out of the playfield": 7,
+    "a shot out of the playfield": 7,
+    "shot 13 bursts on the rock": 3,
+    "pushed back from a wall, in the arena": 7,
+    "the satellite lost": 1,
+    "shot 12 bursts on the rock": 146,
+    "through a dimmed beam: not rock": 5,
+    "on a beam: pushed": 4,
+    "through the scenery: not rock": 140,
+    "a shot on the WARDEN's body in the corridor (rows 10-14)": 62,
+    "on the WARDEN's body in the corridor (rows 10-14)": 3,
+    "unhurtable (key I): plasma, no notch lost": 1,
+    "unhurtable (key I): a Varkon, no notch lost": 1,
+    "unhurtable (key I): the rock, no notch lost": 2
+  },
+  "varkon_events": {
+    "Varkon 0 in": 105,
+    "Varkon 0 fires": 122,
+    "shot 0 on a Varkon": 42,
+    "Varkon 0 shot down": 67,
+    "explosion over": 366,
+    "Varkon 1 in": 60,
+    "plasma gone": 604,
+    "Varkon 1 fires": 74,
+    "Varkon 5 in": 16,
+    "Varkon 5 hit": 9,
+    "Varkon 1 shot down": 66,
+    "Varkon 5 fires": 13,
+    "Varkon 3 in": 22,
+    "leaper hops": 80,
+    "Varkon 3 fires": 30,
+    "Varkon gone left": 83,
+    "Varkon 3 hit": 8,
+    "Varkon 3 shot down": 19,
+    "Varkon 2 in": 36,
+    "shot 1 on a Varkon": 3,
+    "Varkon 2 shot down": 31,
+    "shot 2 on a Varkon": 25,
+    "Varkon shot: no free place": 46,
+    "Varkon 4 in": 12,
+    "Varkon 4 hit": 18,
+    "turret fires left": 32,
+    "Varkon 4 fires": 36,
+    "Varkon 4 shot down": 11,
+    "plasma on the ship": 17,
+    "Varkon 5 shot down": 14,
+    "capsule M left": 5,
+    "Varkon 4 on the ship": 1,
+    "capsule W left": 7,
+    "capsule S left": 4,
+    "shot 8 on a Varkon": 23,
+    "missile on a Varkon": 31,
+    "turret fires up": 2,
+    "turret fires right": 2,
+    "missile on a Varkon: destroyed": 26,
+    "Varkon 0 on the ship": 2,
+    "shot 9 on a Varkon": 75,
+    "capsule E left": 5,
+    "capsule O left": 4,
+    "shot 14 on a Varkon": 9,
+    "Varkon 6 hit": 60,
+    "Varkon 6 fires": 115,
+    "Varkon 6 shot down": 4,
+    "Varkon 7 hit": 62,
+    "Varkon 7 fires": 70,
+    "Varkon 7 shot down": 2,
+    "a shot bursts on a Varkon": 256,
+    "shot 12 on a Varkon": 248,
+    "shot 5 on a Varkon": 5,
+    "shot 3 on a Varkon": 5,
+    "shot 4 on a Varkon": 3,
+    "laser through a Varkon": 25,
+    "shot 10 on a Varkon": 26,
+    "laser: a Varkon pierced already": 5,
+    "shot 13 on a Varkon": 8,
+    "shot 7 on a Varkon": 1,
+    "shot 11 on a Varkon": 8,
+    "blast on a Varkon": 113,
+    "capsule gone left": 11,
+    "Varkon 1 on the ship": 1,
+    "Varkon 6 on the ship": 2,
+    "Varkon 9 in": 5,
+    "Varkon 9 shot down": 5,
+    "Varkon 8 in": 10,
+    "Varkon 8 shot down": 2,
+    "Varkon 11 in": 6,
+    "a field on the ship: pushed back, two notches": 1,
+    "Varkon 10 in": 3,
+    "a field on the ship while it blinks": 3,
+    "Varkon 10 fires": 1,
+    "Varkon 10 hit": 3,
+    "Varkon 10 shot down": 3,
+    "a field goes down with its core": 6,
+    "Varkon 8 on the ship": 1,
+    "Varkon 9 fires": 2,
+    "Varkon at the path's end": 8,
+    "a shot on a shield's segment": 19,
+    "a Gauss shot bursts on a shield's segment": 10,
+    "Varkon 12 hit": 26,
+    "Varkon 13 hit": 23,
+    "Varkon 13 fires": 34,
+    "Varkon 14 fires": 38,
+    "Varkon 12 on the ship": 1,
+    "a laser stops on a shield's segment": 9,
+    "Varkon 12 shot down": 4,
+    "Varkon 14 hit": 20,
+    "Varkon 14 shot down": 2,
+    "Varkon 13 shot down": 1,
+    "Varkon 19 in": 12,
+    "Varkon 15 in": 41,
+    "Varkon 15 shot down": 25,
+    "Varkon 17 in": 6,
+    "Varkon 19 hit": 10,
+    "Varkon 17 fires its fan": 2,
+    "Varkon 17 fires": 6,
+    "Varkon 19 shot down": 9,
+    "a shard from a rock": 34,
+    "Varkon 20 in": 34,
+    "Varkon 20 shot down": 26,
+    "Varkon 17 shot down": 6,
+    "Varkon 16 in": 9,
+    "Varkon 16 fires its fan": 7,
+    "Varkon 16 fires": 20,
+    "Varkon 16 hit": 11,
+    "Varkon 16 shot down": 9,
+    "Varkon 18 in": 3,
+    "Varkon 19 on the ship": 1,
+    "a mine bursts near the ship": 1,
+    "Varkon 18 fires": 4,
+    "Varkon 18 hit": 1,
+    "Varkon 18 shot down": 2,
+    "Varkon 21 fires": 55,
+    "Varkon 21 hit": 28,
+    "Varkon 21 shot down": 4,
+    "Varkon 22 hit": 33,
+    "Varkon 22 fires": 25,
+    "Varkon 22 shot down": 1
+  },
+  "sound_events": {
+    "song 0 from its start": 7,
+    "shot_double on voice 3": 26,
+    "music in MUSIC + FX": 2770,
+    "music: a step": 2004,
+    "music: a note, its first waveform $40": 1804,
+    "music: a note, its first waveform $80": 322,
+    "plasma on voice 3": 35,
+    "shot_double kept off voice 3": 18,
+    "boom on voice 3": 46,
+    "hurt on voice 3": 24,
+    "explode on voice 3": 38,
+    "plasma kept off voice 3": 11,
+    "boom kept off voice 3": 4,
+    "mode SOUND FX": 3,
+    "plasma on voice 2": 386,
+    "shot_double on voice 1": 36,
+    "boom on voice 2": 187,
+    "plasma kept off voice 2": 40,
+    "shot_needle on voice 1": 28,
+    "shot_slug on voice 1": 1077,
+    "mode SILENT": 1,
+    "mode MUSIC": 3,
+    "music in MUSIC": 6261,
+    "music: a note, its first waveform $20": 102,
+    "the song again": 3,
+    "mode MUSIC + FX": 2,
+    "shot_needle on voice 3": 72,
+    "shot_needle kept off voice 3": 38,
+    "missile on voice 3": 23,
+    "capsule on voice 3": 19,
+    "missile kept off voice 3": 21,
+    "shot_slug on voice 3": 30,
+    "missile on voice 1": 447,
+    "laser on voice 3": 30,
+    "laser kept off voice 3": 26,
+    "shot_slug kept off voice 3": 14,
+    "laser on voice 1": 59
+  },
+  "boss_events": {
+    "the arena": 4,
+    "the boss comes": 2,
+    "the body flips": 1706,
+    "the boss at its station": 2,
+    "a cannon fires its fan, aim 0": 42,
+    "a drone launched up": 20,
+    "cannon A destroyed": 2,
+    "a drone launched low": 20,
+    "cannon B destroyed": 2,
+    "the hatch opens": 2,
+    "the core risen": 2,
+    "the core destroyed": 2,
+    "the boss's death: a Varkon explodes": 2,
+    "the boss's death: a plasma shot gone": 12,
+    "the boss destroyed": 4,
+    "a fireball of the chain": 40,
+    "the wreck": 4,
+    "STAGE CLEAR": 4,
+    "a notch into the score": 17,
+    "the level again after STAGE CLEAR": 4,
+    "a cannon aims up": 4,
+    "a cannon aims left": 7,
+    "a cannon aims high": 3,
+    "a cannon fires its fan, aim 2": 3,
+    "a cannon fires its fan, aim 1": 2,
+    "the SHIELD CORE comes": 1,
+    "the arena's characters into the sphere's codes": 6,
+    "the sphere's cells on": 1,
+    "the sphere grows": 24,
+    "the SHIELD CORE fights": 1,
+    "a segment fully open": 17,
+    "the top pod aims low": 2,
+    "the top pod fires its fan, aim 2": 2,
+    "a new gap": 16,
+    "the low pod aims high": 2,
+    "the low pod fires its fan, aim 2": 4,
+    "a destroyed segment left in place": 2197,
+    "the top pod aims down": 1,
+    "the top pod fires its fan, aim 1": 2,
+    "the low pod aims up": 1,
+    "the low pod fires its fan, aim 1": 2,
+    "the top pod aims left": 1,
+    "the top pod fires its fan, aim 0": 1,
+    "the top pod destroyed": 1,
+    "the low pod aims left": 1,
+    "the low pod fires its fan, aim 0": 2,
+    "the low pod destroyed": 1,
+    "RAGE: half the core's life": 1,
+    "RAGE: a burst's pause": 6,
+    "the SHIELD CORE's core destroyed": 1,
+    "the sphere white": 10,
+    "the sphere's colours again": 10,
+    "the sphere gone: the arena's cells again": 1,
+    "the GRAVEYARD WARDEN comes": 1,
+    "the WARDEN: a patch into its drawing": 18,
+    "the WARDEN's body flips": 269,
+    "the WARDEN leaves a row: the arena's cells": 44,
+    "the WARDEN over the nebula": 3983,
+    "the WARDEN at its station": 1,
+    "port 0 opens": 2,
+    "a gun aims down": 1,
+    "a gun, down fires its fan, aim 1": 1,
+    "a gun aims left": 13,
+    "a gun aims low": 18,
+    "a gun, down fires its fan, aim 2": 18,
+    "port 0 shuts, its gun back in": 1,
+    "port 2 opens": 1,
+    "a gun, down fires its fan, aim 0": 2,
+    "port 2 destroyed: broken off": 1,
+    "port 1 opens": 2,
+    "port 1 shuts, its gun back in": 1,
+    "port 3 opens": 1,
+    "port 3 destroyed: broken off": 1,
+    "port 0 destroyed: broken off": 1,
+    "port 1 destroyed: broken off": 1,
+    "the WARDEN bare: no port left": 1,
+    "the WARDEN's core shows": 1,
+    "the WARDEN's core sheds two shards": 4,
+    "the WARDEN's core: faster": 1,
+    "the WARDEN's core destroyed": 1
+  },
+  "escape_events": {},
+  "escape_frames_not_compared_as_pictures": {
+    "frames": 0,
+    "first": [],
+    "last": []
+  },
+  "multiplexer": {
+    "frames": 31784,
+    "left out": 16125,
+    "crowded": 16125,
+    "left out: the object itself": 5407,
+    "left out: an entry, for a later one": 10718,
+    "most shown": 17,
+    "most objects": 17,
+    "frames with some left out": 7837,
+    "left_out_by_class": {
+      "ship's shots": 11069,
+      "Varkon": 2685,
+      "Varkon's shots": 2371
+    }
+  },
+  "cycles_from_joy_ready_to_frame_ready": {
+    "arena, body 0-7": {
+      "turns": 1706,
+      "max_cycles": 17337,
+      "min_cycles": 8608
+    },
+    "arena, body 8-14, flip": {
+      "turns": 1706,
+      "max_cycles": 18082,
+      "min_cycles": 9681
+    },
+    "arena, none": {
+      "turns": 5898,
+      "max_cycles": 15661,
+      "min_cycles": 3428
+    },
+    "arena, none, grows": {
+      "turns": 24,
+      "max_cycles": 11979,
+      "min_cycles": 8760
+    },
+    "arena, sphere 1": {
+      "turns": 1,
+      "max_cycles": 11144,
+      "min_cycles": 11144
+    },
+    "arena, sphere 2": {
+      "turns": 10,
+      "max_cycles": 6110,
+      "min_cycles": 4850
+    },
+    "arena, sphere 3": {
+      "turns": 10,
+      "max_cycles": 7055,
+      "min_cycles": 5396
+    },
+    "arena, sphere 4": {
+      "turns": 1,
+      "max_cycles": 6783,
+      "min_cycles": 6783
+    },
+    "arena, warden column 0": {
+      "turns": 269,
+      "max_cycles": 16660,
+      "min_cycles": 7702
+    },
+    "arena, warden column 1": {
+      "turns": 269,
+      "max_cycles": 15642,
+      "min_cycles": 7509
+    },
+    "arena, warden column 2": {
+      "turns": 269,
+      "max_cycles": 15323,
+      "min_cycles": 7429
+    },
+    "arena, warden column 3": {
+      "turns": 269,
+      "max_cycles": 16188,
+      "min_cycles": 7393
+    },
+    "arena, warden column 4": {
+      "turns": 269,
+      "max_cycles": 16585,
+      "min_cycles": 7514
+    },
+    "arena, warden column 5": {
+      "turns": 269,
+      "max_cycles": 15139,
+      "min_cycles": 7486
+    },
+    "arena, warden column 6": {
+      "turns": 269,
+      "max_cycles": 15672,
+      "min_cycles": 7485
+    },
+    "arena, warden flip": {
+      "turns": 269,
+      "max_cycles": 16588,
+      "min_cycles": 6325
+    },
+    "stage 0": {
+      "turns": 1648,
+      "max_cycles": 16132,
+      "min_cycles": 4691
+    },
+    "stage 1": {
+      "turns": 1648,
+      "max_cycles": 15614,
+      "min_cycles": 4730
+    },
+    "stage 2": {
+      "turns": 1648,
+      "max_cycles": 15723,
+      "min_cycles": 4747
+    },
+    "stage 3": {
+      "turns": 1645,
+      "max_cycles": 16683,
+      "min_cycles": 5000
+    },
+    "stage 4": {
+      "turns": 1645,
+      "max_cycles": 16481,
+      "min_cycles": 4437
+    },
+    "stage 5": {
+      "turns": 1644,
+      "max_cycles": 15830,
+      "min_cycles": 4631
+    },
+    "stage 6": {
+      "turns": 823,
+      "max_cycles": 14008,
+      "min_cycles": 3879
+    },
+    "stage 6 + far": {
+      "turns": 820,
+      "max_cycles": 17063,
+      "min_cycles": 4984
+    },
+    "stage waits": {
+      "turns": 7111,
+      "max_cycles": 13927,
+      "min_cycles": 2897
+    },
+    "swap": {
+      "turns": 1643,
+      "max_cycles": 16064,
+      "min_cycles": 4762
+    }
+  },
+  "deadlines_smallest_margin": {
+    "the multiplexer's writes: after the sprite's object before, before its own line": {
+      "margin_lines": 0,
+      "line": 167,
+      "deadline_line": 168,
+      "frame": 13625
+    },
+    "rows 0-9 of the next frame (stars, colour RAM): after the beam drew them, before it draws them again": {
+      "margin_lines": 176,
+      "line": 195,
+      "deadline_line": 59,
+      "frame": 9392
+    },
+    "colour RAM rows 15-21, in the swap: row R moved before row R": {
+      "margin_lines": 137,
+      "line": 34,
+      "deadline_line": 171,
+      "frame": 9983
+    },
+    "far rows moved before row 11": {
+      "margin_lines": 77,
+      "line": 62,
+      "deadline_line": 139,
+      "frame": 2695
+    },
+    "sprites written before line 50": {
+      "margin_lines": 17,
+      "line": 33,
+      "deadline_line": 50,
+      "frame": 9404
+    }
+  },
+  "multiplexer_write_lines_after_its_start": {
+    "lines": 4,
+    "line": 135,
+    "frame": 882,
+    "entry": 8,
+    "allowed": 4
+  },
+  "ahead_end": {
+    "lines_before_227": 4,
+    "line": 223,
+    "frame": 6152
+  },
+  "rows_0_9_in_a_level_start_turn": 2,
+  "turn_cycles": {
+    "turns": 31782,
+    "min": 19646,
+    "max": 19701
+  },
+  "sound_cycles": {
+    "frames": 31790,
+    "max": 3049,
+    "mean": 365
+  },
+  "colours_at_once": {
+    "turns": 1643,
+    "first": [
+      [
+        15,
+        9
+      ],
+      [
+        31,
+        9
+      ],
+      [
+        47,
+        9
+      ],
+      [
+        63,
+        9
+      ],
+      [
+        79,
+        9
+      ]
+    ]
+  },
+  "ahead_end_by_turn": {
+    "arena, body 0-7": {
+      "lines_before_227": 15,
+      "line": 212,
+      "frame": 6164
+    },
+    "arena, body 8-14, flip": {
+      "lines_before_227": 4,
+      "line": 223,
+      "frame": 6152
+    },
+    "arena, none": {
+      "lines_before_227": 55,
+      "line": 172,
+      "frame": 21614
+    },
+    "arena, none, grows": {
+      "lines_before_227": 115,
+      "line": 112,
+      "frame": 21400
+    },
+    "arena, sphere 1": {
+      "lines_before_227": 126,
+      "line": 101,
+      "frame": 21393
+    },
+    "arena, sphere 2": {
+      "lines_before_227": 202,
+      "line": 25,
+      "frame": 23076
+    },
+    "arena, sphere 3": {
+      "lines_before_227": 191,
+      "line": 36,
+      "frame": 23133
+    },
+    "arena, sphere 4": {
+      "lines_before_227": 197,
+      "line": 30,
+      "frame": 23151
+    },
+    "arena, warden column 0": {
+      "lines_before_227": 41,
+      "line": 186,
+      "frame": 29914
+    },
+    "arena, warden column 1": {
+      "lines_before_227": 54,
+      "line": 173,
+      "frame": 30411
+    },
+    "arena, warden column 2": {
+      "lines_before_227": 59,
+      "line": 168,
+      "frame": 30412
+    },
+    "arena, warden column 3": {
+      "lines_before_227": 45,
+      "line": 182,
+      "frame": 30413
+    },
+    "arena, warden column 4": {
+      "lines_before_227": 41,
+      "line": 186,
+      "frame": 30406
+    },
+    "arena, warden column 5": {
+      "lines_before_227": 60,
+      "line": 167,
+      "frame": 30407
+    },
+    "arena, warden column 6": {
+      "lines_before_227": 55,
+      "line": 172,
+      "frame": 30408
+    },
+    "arena, warden flip": {
+      "lines_before_227": 39,
+      "line": 188,
+      "frame": 30409
+    },
+    "stage 0": {
+      "lines_before_227": 15,
+      "line": 212,
+      "frame": 9368
+    },
+    "stage 1": {
+      "lines_before_227": 34,
+      "line": 193,
+      "frame": 20778
+    },
+    "stage 2": {
+      "lines_before_227": 41,
+      "line": 186,
+      "frame": 8858
+    },
+    "stage 3": {
+      "lines_before_227": 33,
+      "line": 194,
+      "frame": 9895
+    },
+    "stage 4": {
+      "lines_before_227": 14,
+      "line": 213,
+      "frame": 9380
+    },
+    "stage 5": {
+      "lines_before_227": 41,
+      "line": 186,
+      "frame": 9899
+    },
+    "stage 6": {
+      "lines_before_227": 67,
+      "line": 160,
+      "frame": 8813
+    },
+    "stage 6 + far": {
+      "lines_before_227": 23,
+      "line": 204,
+      "frame": 9917
+    },
+    "stage 6 + far, before a swap": {
+      "lines_before_227": 30,
+      "line": 197,
+      "frame": 9406
+    },
+    "stage 6, before a swap": {
+      "lines_before_227": 49,
+      "line": 178,
+      "frame": 12182
+    },
+    "stage waits": {
+      "lines_before_227": 39,
+      "line": 188,
+      "frame": 8752
+    },
+    "stage waits, before a swap": {
+      "lines_before_227": 44,
+      "line": 183,
+      "frame": 9918
+    },
+    "swap": {
+      "lines_before_227": 37,
+      "line": 190,
+      "frame": 8847
+    }
+  },
+  "ahead_end_by_level": {
+    "level 1": {
+      "lines_before_227": 4,
+      "line": 223,
+      "frame": 6152
+    },
+    "level 2": {
+      "lines_before_227": 34,
+      "line": 193,
+      "frame": 20778
+    },
+    "level 3": {
+      "lines_before_227": 39,
+      "line": 188,
+      "frame": 27975
+    }
+  },
+  "captures": [
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-a.png",
+      "frame": 60,
+      "sha256": "e0ad80f630da932e5ad5ccbc97a40c76a514eae625ee25daf89e371c7cc68eca"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-b.png",
+      "frame": 900,
+      "sha256": "5f89755fb7401b8cfb7ca904c414baa773c36e2dd704fff44b761b0bb11ccb11"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8-a.png",
+      "frame": 6176,
+      "sha256": "a73befe226802f8de0689759703dc0e3cf3a35051f0a956524d8e143693a980d"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8-b.png",
+      "frame": 6876,
+      "sha256": "4bbfbf76004d9a82c30b941d70013c03e851b91e1027fd8c35ee2ee2b7842cc8"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8-c.png",
+      "frame": 8116,
+      "sha256": "c5c099285c6cee280d245d6aae23a5b4e73079e81aa7079d590a42d29b10ad06"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8-d.png",
+      "frame": 8276,
+      "sha256": "1273a4d746d78b2f424c3f2160a977ee4908cef80df5ec4f9ccef540ac10d631"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.2-a.png",
+      "frame": 16836,
+      "sha256": "fb26462a66a6c131aefedb28d090e21adef3d112e594e0c09598bb93defdfa6e"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.2-b.png",
+      "frame": 17436,
+      "sha256": "e6bc33f517c90de8d6bec97f06cffd42e4a79159e852b23faa781b2a163cbb9c"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.2-c.png",
+      "frame": 18716,
+      "sha256": "1166645275685d2b076b2cfae7b5f4f9c9a1f1c7a3cc309aea5a1283a71eac0d"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.2-d.png",
+      "frame": 20776,
+      "sha256": "b00821dc619c361965da74b6574be8315400765e79923d57b8c3d9ee3de51340"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.3-a.png",
+      "frame": 21416,
+      "sha256": "b7d737a6ca0108ac54fec037434b14a8d3b1276f62606eb450223dee778bde91"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.3-b.png",
+      "frame": 21476,
+      "sha256": "330a0e0ec4b18549b9aa3503bd3e75f2673c24126184fb078ac684a7b37611ed"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.3.1-a.png",
+      "frame": 21676,
+      "sha256": "8f6c31f50b7fe9f46d33cef99864cf5a142e172c7e7e36d6dfe649637591ad7e"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.3.1-b.png",
+      "frame": 21876,
+      "sha256": "8f360c6b46b5eb8b42762f3533ac8e3241aca4fa3648e2a1c45c9956acefa456"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.3.1-c.png",
+      "frame": 22776,
+      "sha256": "b2ea7bc4e3db5ad6f725bb04c413566fe3082663ff22bf8a8dd17bb80dfa5c23"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.3.1-d.png",
+      "frame": 23054,
+      "sha256": "87841206f5d9eea140d69188f1534ec43fe736542d061b6b737f3d1c522621cf"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.3.1-e.png",
+      "frame": 23214,
+      "sha256": "dab13a8d417b357ca8d6e66a6fa384c68f6e8b66c307239fa300e8aa5dfebcec"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.5-a.png",
+      "frame": 23422,
+      "sha256": "9655b36e9df68141cb625def3b8bb6f38a6f179763a40e0a103efae11429d261"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.5-b.png",
+      "frame": 23422,
+      "sha256": "7a743f9370959910972f0d04b537e8c8b32b2948740bace1c9c38100a618d7d6"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.4-a.png",
+      "frame": 24022,
+      "sha256": "682a78c44f5a9e40578ee3132652d699518df00d05d8b6414cfeb7b8ffe11f6d"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.4-b.png",
+      "frame": 24548,
+      "sha256": "f43aa2652b05af4adff06b60f89cd361876e5fcacca16b5097d0a6c665a80488"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.4-c.png",
+      "frame": 25622,
+      "sha256": "a2c526d5a80c63ae547a167d1f470eb4e9aedd1bf6a840f1f9357d2876e26950"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.4-d.png",
+      "frame": 26422,
+      "sha256": "9581aa198415e9ea066f2c52008319ba0a6bdd79253de7f97198905650d4b9f4"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.4-e.png",
+      "frame": 27622,
+      "sha256": "0199f9858c682aea7327cac7c54a002884166bd18b6a04ed880fe1618f34ef42"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.4-f.png",
+      "frame": 28522,
+      "sha256": "430d0da148e4d2c3d8567c26781cd702526dea30908be8d9c20e6f9e0c075178"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.6-a.png",
+      "frame": 28676,
+      "sha256": "00439c09205c86042c6319efcccdb8d1d54618c747c3f18c6054a2cf309bcfb7"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.6-b.png",
+      "frame": 28856,
+      "sha256": "ed0ee376680d56b1e40f80504901803aeac589715a41bc4ef3d7f5eb322cb730"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.6-c.png",
+      "frame": 28942,
+      "sha256": "da7aa51633b4f7e0d92c915baa6bdf3713b31ae7990db5bf52a0fd7d80542c3d"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.6-d.png",
+      "frame": 29191,
+      "sha256": "a86c4eca8821d6f72d3682d496e2870b3e3741a4d52c38c3835dafce487c5a12"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.6-e.png",
+      "frame": 29976,
+      "sha256": "cd4d1b99f43e4fc4865d53fc30997230a8c6a633371091104bb77e4389ef85f3"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.6-f.png",
+      "frame": 30716,
+      "sha256": "26261ea53fb516b5f3fa3e009eeb8f66bbf646e726c147d707f9b6bafcf44a35"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.6-g.png",
+      "frame": 30876,
+      "sha256": "8d33d0379a3bec2aa7e3fe6c048b327bc00273f08b291552c779e6176204d32e"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.5-d.png",
+      "frame": 31072,
+      "sha256": "ea25a997f64fa34ce9e611fedbf2e7fabba5276d3cec228ed3dfab45fc5ed095"
+    },
+    {
+      "file": "variants/11-graveyard-warden/11b-faster-guns/evidence/step11-0.8.5-c.png",
+      "frame": 31072,
+      "sha256": "39565c8bcab3d9ceb30501eb4735f812604d92b424a209e36716142ee4b2b2e4"
+    }
+  ],
+  "file_loads": [
+    {
+      "frame": 23422,
+      "file": 2,
+      "plan": "sum",
+      "tries": [
+        {
+          "why": "the sum",
+          "cells": 20,
+          "seconds": 19.82
+        }
+      ],
+      "read_seconds": 18.85,
+      "turn_seconds": 41.68
+    },
+    {
+      "frame": 31072,
+      "file": 1,
+      "plan": "absent",
+      "tries": [
+        {
+          "why": "the bus (status $80)",
+          "cells": 0,
+          "seconds": 0.01
+        }
+      ],
+      "read_seconds": 23.27,
+      "turn_seconds": 26.09
+    },
+    {
+      "frame": 31562,
+      "file": 2,
+      "plan": null,
+      "tries": [],
+      "read_seconds": 19.73,
+      "turn_seconds": 20.73
+    },
+    {
+      "frame": 31672,
+      "file": 1,
+      "plan": null,
+      "tries": [],
+      "read_seconds": 23.27,
+      "turn_seconds": 24.1
+    }
+  ],
+  "turns_held": {
+    "turns": 0,
+    "by_kind": {}
+  },
+  "titles": 0,
+  "top_interrupt_on_line_21_after_get_src": [],
+  "seconds": 1230,
+  "checks": [
+    {
+      "check": "VIC-II bank 1 ($4000)",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "under the HUD: $d018 screen A, HUD's characters; $d016 multicolour, 38 columns, no scroll",
+      "pass": true,
+      "detail": "$d018=0x05 $d016=0xd0"
+    },
+    {
+      "check": "$d011: 25 rows, screen on",
+      "pass": true,
+      "detail": "0x1b"
+    },
+    {
+      "check": "colour registers under the HUD",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "sprites: no stretching; in front of the characters",
+      "pass": true,
+      "detail": "$d017=0x00"
+    },
+    {
+      "check": "playfield characters at $4800 (stars as the model)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD characters at $5000",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the 96 sprite blocks at $6000",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the packed levels in place ($d000, 6477 bytes, from 0.8.4 under the I/O and the KERNAL)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the title's module in place ($f800, 363 bytes, under the KERNAL: move_store, from the PRG's two pieces)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the files' drive: 8, the program not loaded from a drive ($ba = 1; from 1.0 in the whole games loaded from drive 8); file 1 (phase 1's) in the store (0.8.5)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the camera never waited for the back screen",
+      "pass": true,
+      "detail": "0 waits"
+    },
+    {
+      "check": "the route",
+      "pass": true,
+      "detail": "31791 frames"
+    },
+    {
+      "check": "camera, screen, stage, far column, scrolls as the model (31791 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the ship as the model (31791 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "both screens as the model (HUD) (31791 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "colour RAM as the model (31791 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the playfield's characters as the model (the stars; from 0.8 the boss's body and STAGE CLEAR's letters) (31791 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the boss as the model (its step, body, parts, bar) (31791 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the SHIELD CORE's variables as the model (arena_chars, the turn, the gap, the segments, the sphere's cells to do, the arena's cells kept) (24031 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the GRAVEYARD WARDEN's variables as the model (its ports, the guns' lives, the patches wanted and made, the rows shown, its colour, the body being made) (7760 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "rows 10-14's rock (rock_row, air_rock) as the model: never, but while the GRAVEYARD WARDEN is in level 3's arena, from 0.8.8 the VARKON CORVETTE in level 4's, from 0.8.10 the DEFENSE TURRET ARRAY in level 5's, from 0.8.12 the SUPER-COMPUTER VARKON in level 6's (7854 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the GRAVEYARD WARDEN's memory as the model (the arena's cells under it, kept; its drawing after the patches) (2878 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the level and its beams' cycle as the model (31791 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the keys I and L, the ship that cannot be hurt, the border as the model (31791 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the rock's table (rock_lines: not the scenery, the beams only when on) as the model (14572 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the level's tables unpacked at its start (LEVEL_W1, LEVEL_W2; from 0.8.4 its pictures) as its files (9 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "(0.8.12) at each level's start the Varkon's tables (the kinds, their shots, the segments') as its table set's, whatever file came before (9 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the objects in both banks as the model (31783 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the multiplexer's order, plan, lines, left out as the model (31783 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the Varkon, their shots, the waves as the model (31783 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the score, the best, the next ship as the model (31783 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the weapons, the shots, the missile, the satellite, the blast as the model (31783 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the sprites' registers and pointers as the model (31783 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the multiplexer's writes: after the sprite's object before, before its own line (51793 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the multiplexer's writes: all of the plan, every frame (31782 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the multiplexer's writes: the entry's place, ninth bit, pointers, colour as the model (51793 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no frame lost: frame_count +1 a turn (31782 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no frame lost: 19656 cycles from a turn to the next (CIA 2's timers, the test's clock) (31782 times)",
+      "pass": true,
+      "detail": " (1 readings a turn of timer A high: timer B counts its underflow a cycle later; corrected)"
+    },
+    {
+      "check": "rows 0-9 of the next frame (stars, colour RAM): after the beam drew them, before it draws them again (28911 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "colour RAM rows 15-21, in the swap: row R moved before row R (11501 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "every swap: its rows 0-9 moved in the frame before (1643 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "far rows moved before row 11 (820 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "sprites written before line 50 (31783 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "near scroll and colours on line 20 (from 0.9 on line 21 too, when the interrupt waited for get_src's sei: the store's byte read under the I/O) (844 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "far scroll and screen A in row 10 (lines 131-138) (844 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "near scroll and the screen shown in row 14 (lines 163-170) (844 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the SID's copy into the SID at the top, lines 20-24 (844 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the sound as the model: the SID's copy, the voices of the music, the effects (31790 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD's $d018 in the border, 226-227 (844 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD's $d016 before the badline of 227 (844 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "capture equals the reference picture (31782 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "a file from the disk only when the level's file is not in the store, as the model (4 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "a file's load: its records in place, byte for byte; file_now; the KERNAL out ($01 = $35) (4 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "a file with a wrong sum (spoiled by the test as it comes): read whole, refused, INSERT THE DISK, read again (1 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the drive not answering (the files' drive written 9: none there): refused before a byte of the file, INSERT THE DISK, read when it answers (1 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "a file from the right disk at the first try (2 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "a file's load: the game's pages 0, 2 and 3 given back, as they were when the try that read the file began (4 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the SID silent while a file loads (its volume 0: VICE's monitor reads the last value written) (4 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the loading screen seen with its bar half full, and INSERT THE DISK when the file did not come right (4 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the loading screen: PHASE n, its name (the file's phase), the bar as far as the file came, LOADING; INSERT THE DISK when it did not come right; shown on screen A with the HUD's characters (6 times)",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "end": {
+    "camera": 59,
+    "level": 0,
+    "lives": 2,
+    "ship_type": 2,
+    "score": 999990,
+    "best": 999990,
+    "arena_frame": 5768,
+    "hud": [
+      "????????????????????????????????????????",
+      "  SCORE 999990  HI 999990    VARKONIA   ",
+      "  SHIELD ?????? WEAPON ????  SHIPS ??   "
+    ]
+  },
+  "result": "PASS"
+}

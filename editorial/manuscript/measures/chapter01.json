@@ -1,0 +1,26 @@
+{
+  "try_line_2026": {
+    "offsets": [
+      4,
+      5
+    ],
+    "before": [
+      "0a",
+      "00"
+    ],
+    "after": [
+      "ea",
+      "07"
+    ],
+    "sha256_before": "d5fe5ad3c0dd44340fa548d4d39baadc3e0bd10ea44896e5e8b37c8756b80962",
+    "sha256_after": "202662255f5cb1a5f5aae3058481c95d33dea13b5ce8255e3dd3ffeae9e5f749",
+    "same_size": true,
+    "screens_identical": true,
+    "cycles": 8000000,
+    "screen_size": [
+      384,
+      272
+    ],
+    "pixels_not_border_colour": 22540
+  }
+}

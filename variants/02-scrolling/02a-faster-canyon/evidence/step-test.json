@@ -1,0 +1,422 @@
+{
+  "step": 2,
+  "program": "variants/02-scrolling/02a-faster-canyon/game/build/test/starbraze2.prg",
+  "prg_bytes": 37195,
+  "prg_sha256": "978bd678f9001ab18c9e4294b4fb5b58916ea13204249ffaee16b551946af9d6",
+  "vice": "/usr/local/bin/x64sc",
+  "frames": 4356,
+  "events": {
+    "swap": 360,
+    "hold": 0,
+    "far": 180,
+    "restart": 0,
+    "gameover": 0
+  },
+  "ship_events": {},
+  "varkon_events": {},
+  "sound_events": {},
+  "boss_events": {
+    "the arena": 1
+  },
+  "escape_events": {},
+  "escape_frames_not_compared_as_pictures": {
+    "frames": 0,
+    "first": [],
+    "last": []
+  },
+  "multiplexer": {
+    "frames": 0,
+    "left out": 0,
+    "crowded": 0,
+    "left out: the object itself": 0,
+    "left out: an entry, for a later one": 0,
+    "most shown": 0,
+    "most objects": 0,
+    "frames with some left out": 0,
+    "left_out_by_class": {
+      "ship's shots": 0,
+      "Varkon": 0,
+      "Varkon's shots": 0
+    }
+  },
+  "cycles_from_joy_ready_to_frame_ready": {
+    "stage 0": {
+      "turns": 360,
+      "max_cycles": 2186,
+      "min_cycles": 2131
+    },
+    "stage 1": {
+      "turns": 360,
+      "max_cycles": 2216,
+      "min_cycles": 2134
+    },
+    "stage 2": {
+      "turns": 360,
+      "max_cycles": 2285,
+      "min_cycles": 2154
+    },
+    "stage 3": {
+      "turns": 360,
+      "max_cycles": 2482,
+      "min_cycles": 2442
+    },
+    "stage 4": {
+      "turns": 360,
+      "max_cycles": 2016,
+      "min_cycles": 1826
+    },
+    "stage 5": {
+      "turns": 360,
+      "max_cycles": 2135,
+      "min_cycles": 1908
+    },
+    "stage 6": {
+      "turns": 180,
+      "max_cycles": 1363,
+      "min_cycles": 1360
+    },
+    "stage 6 + far": {
+      "turns": 180,
+      "max_cycles": 2444,
+      "min_cycles": 2421
+    },
+    "stage None": {
+      "turns": 1300,
+      "max_cycles": 287,
+      "min_cycles": 287
+    },
+    "stage waits": {
+      "turns": 176,
+      "max_cycles": 310,
+      "min_cycles": 299
+    },
+    "swap": {
+      "turns": 360,
+      "max_cycles": 2423,
+      "min_cycles": 2131
+    }
+  },
+  "deadlines_smallest_margin": {
+    "rows 0-9 of the next frame (stars, colour RAM): after the beam drew them, before it draws them again": {
+      "margin_lines": 220,
+      "line": 143,
+      "deadline_line": 51,
+      "frame": 39
+    },
+    "colour RAM rows 15-21, in the swap: row R moved before row R": {
+      "margin_lines": 247,
+      "line": 236,
+      "deadline_line": 171,
+      "frame": 1632
+    },
+    "far rows moved before row 11": {
+      "margin_lines": 186,
+      "line": 265,
+      "deadline_line": 139,
+      "frame": 30
+    }
+  },
+  "multiplexer_write_lines_after_its_start": null,
+  "ahead_end": {
+    "lines_before_227": 66,
+    "line": 161,
+    "frame": 1249
+  },
+  "rows_0_9_in_a_level_start_turn": 0,
+  "turn_cycles": {
+    "turns": 4355,
+    "min": 19651,
+    "max": 19661
+  },
+  "sound_cycles": {
+    "frames": 0,
+    "max": null,
+    "mean": null
+  },
+  "colours_at_once": {
+    "turns": 360,
+    "first": [
+      [
+        15,
+        9
+      ],
+      [
+        31,
+        9
+      ],
+      [
+        47,
+        9
+      ],
+      [
+        63,
+        9
+      ],
+      [
+        79,
+        9
+      ]
+    ]
+  },
+  "ahead_end_by_turn": {
+    "stage 0": {
+      "lines_before_227": 66,
+      "line": 161,
+      "frame": 1249
+    },
+    "stage 1": {
+      "lines_before_227": 67,
+      "line": 160,
+      "frame": 386
+    },
+    "stage 2": {
+      "lines_before_227": 77,
+      "line": 150,
+      "frame": 371
+    },
+    "stage 3": {
+      "lines_before_227": 67,
+      "line": 160,
+      "frame": 2964
+    },
+    "stage 4": {
+      "lines_before_227": 71,
+      "line": 156,
+      "frame": 397
+    },
+    "stage 5": {
+      "lines_before_227": 71,
+      "line": 156,
+      "frame": 406
+    },
+    "stage 6": {
+      "lines_before_227": 288,
+      "line": 251,
+      "frame": 14
+    },
+    "stage 6 + far": {
+      "lines_before_227": 271,
+      "line": 268,
+      "frame": 30
+    },
+    "stage 6 + far, before a swap": {
+      "lines_before_227": 78,
+      "line": 149,
+      "frame": 1903
+    },
+    "stage 6, before a swap": {
+      "lines_before_227": 78,
+      "line": 149,
+      "frame": 1895
+    },
+    "stage None": {
+      "lines_before_227": 305,
+      "line": 234,
+      "frame": 3057
+    },
+    "stage waits": {
+      "lines_before_227": 67,
+      "line": 160,
+      "frame": 99
+    },
+    "stage waits, before a swap": {
+      "lines_before_227": 82,
+      "line": 145,
+      "frame": 15
+    },
+    "swap": {
+      "lines_before_227": 71,
+      "line": 156,
+      "frame": 408
+    }
+  },
+  "ahead_end_by_level": {
+    "level 1": {
+      "lines_before_227": 66,
+      "line": 161,
+      "frame": 1249
+    }
+  },
+  "captures": [
+    {
+      "file": "variants/02-scrolling/02a-faster-canyon/evidence/step02-a.png",
+      "frame": 1000,
+      "sha256": "0903e19fb0ae6319dc48eeebc75048966db924bcfbe0e3d5f0325824cff6a512"
+    },
+    {
+      "file": "variants/02-scrolling/02a-faster-canyon/evidence/step02-b.png",
+      "frame": 2600,
+      "sha256": "1790d10c1c71aeedc85e75352a7a2cf171c01487023366dbfa416ffc7ee24602"
+    },
+    {
+      "file": "variants/02-scrolling/02a-faster-canyon/evidence/step02-c.png",
+      "frame": 4306,
+      "sha256": "d8ec0f410e96bc1f66df006953cb1804d8c2973fb2a2e8a6c19796958334e62d"
+    }
+  ],
+  "file_loads": [],
+  "turns_held": {
+    "turns": 0,
+    "by_kind": {}
+  },
+  "titles": 0,
+  "top_interrupt_on_line_21_after_get_src": [],
+  "seconds": 144,
+  "checks": [
+    {
+      "check": "VIC-II bank 1 ($4000)",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "under the HUD: $d018 screen A, HUD's characters; $d016 multicolour, 38 columns, no scroll",
+      "pass": true,
+      "detail": "$d018=0x05 $d016=0xd0"
+    },
+    {
+      "check": "$d011: 25 rows, screen on",
+      "pass": true,
+      "detail": "0x1b"
+    },
+    {
+      "check": "colour registers under the HUD",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "playfield characters at $4800 (stars as the model)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD characters at $5000",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the packed levels in place ($d000, 6474 bytes, from 0.8.4 under the I/O and the KERNAL)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the title's module in place ($f800, 132 bytes, under the KERNAL: move_store, from the PRG's two pieces)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the camera never waited for the back screen",
+      "pass": true,
+      "detail": "0 waits"
+    },
+    {
+      "check": "the route",
+      "pass": true,
+      "detail": "4356 frames"
+    },
+    {
+      "check": "camera, screen, stage, far column, scrolls as the model (4356 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "both screens as the model (HUD) (4356 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "colour RAM as the model (4356 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the playfield's characters as the model (the stars; from 0.8 the boss's body and STAGE CLEAR's letters) (4356 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the level and its beams' cycle as the model (4356 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the level's tables unpacked at its start (LEVEL_W1, LEVEL_W2; from 0.8.4 its pictures) as its files (1 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no frame lost: frame_count +1 a turn (4355 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no frame lost: 19656 cycles from a turn to the next (CIA 2's timers, the test's clock) (4355 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "rows 0-9 of the next frame (stars, colour RAM): after the beam drew them, before it draws them again (6480 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "colour RAM rows 15-21, in the swap: row R moved before row R (2520 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "every swap: its rows 0-9 moved in the frame before (360 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "far rows moved before row 11 (180 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "near scroll and colours on line 20 (from 0.9 on line 21 too, when the interrupt waited for get_src's sei: the store's byte read under the I/O) (104 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "far scroll and screen A in row 10 (lines 131-138) (104 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "near scroll and the screen shown in row 14 (lines 163-170) (104 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD's $d018 in the border, 226-227 (104 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD's $d016 before the badline of 227 (104 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "capture equals the reference picture (4355 times)",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "end": {
+    "camera": 2880,
+    "level": 0,
+    "lives": 3,
+    "ship_type": 0,
+    "score": 0,
+    "best": 0,
+    "arena_frame": 3056,
+    "hud": [
+      "????????????????????????????????????????",
+      "  SCORE 000000  HI 000000    VARKONIA   ",
+      "  SHIELD ????   WEAPON ????  SHIPS ???  "
+    ]
+  },
+  "result": "PASS"
+}

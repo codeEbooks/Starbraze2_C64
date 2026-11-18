@@ -1,0 +1,38 @@
+{
+  "try_blue_border": {
+    "offsets": [
+      2890
+    ],
+    "addresses": [
+      "$1349"
+    ],
+    "before": [
+      "00"
+    ],
+    "after": [
+      "06"
+    ],
+    "sha256_after": "60291166ab8683ca985b696c2d3a1934759221031eb3266b07f2fffa068b3174",
+    "same_size": true,
+    "cycles": 8000000,
+    "screen_size": [
+      384,
+      272
+    ],
+    "pixels_changed": 43648,
+    "colours": {
+      "(0, 0, 0) -> (44, 61, 236)": 43648
+    },
+    "unchanged_box": [
+      39,
+      35,
+      343,
+      235
+    ],
+    "unchanged_box_size": [
+      304,
+      200
+    ],
+    "changed_inside_the_box": 0
+  }
+}

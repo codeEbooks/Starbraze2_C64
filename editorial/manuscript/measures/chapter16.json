@@ -1,0 +1,249 @@
+{
+  "break_11x_played_on": {
+    "command": "tests/verify_game.py --step 11 --root COPY --vice /usr/local/bin/x64sc --fail-fast --stop-after 300 --stop-shot after.png",
+    "exit_code": 1,
+    "result": "FAIL",
+    "frames": 28715,
+    "after": 300,
+    "prg_sha256": "0eaf595840227a0b260492fd6fdc8d6508e03e0d5a65f9da030ff6a6527b251e",
+    "warden_events": {
+      "the GRAVEYARD WARDEN comes": 1,
+      "the WARDEN: a patch into its drawing": 5,
+      "the WARDEN's body flips": 31,
+      "the WARDEN leaves a row: the arena's cells": 2,
+      "the WARDEN over the nebula": 10
+    },
+    "failed": {
+      "the route, to the first failure (--fail-fast, frame 28715)": {
+        "first_frame": 28414,
+        "detail": "the boss as the model (its step, body, parts, bar): frame 28414: boss_timer 0 instead of 1, part_x 0 instead of 12, part_x+1 0 instead of 1"
+      },
+      "both screens as the model (HUD) (28714 times)": {
+        "first_frame": 28463,
+        "detail": "1 failed: frame 28463: cell 949 (row 23, column 29): 32 instead of 44"
+      },
+      "colour RAM as the model (28714 times)": {
+        "first_frame": 28463,
+        "detail": "1 failed: frame 28463: cell 949 (row 23, column 29): 7 instead of 2"
+      },
+      "the boss as the model (its step, body, parts, bar) (28714 times)": {
+        "first_frame": 28414,
+        "detail": "301 failed: frame 28414: boss_timer 0 instead of 1, part_x 0 instead of 12, part_x+1 0 instead of 1; frame 28415: boss_timer 1 instead of 2, part_x 0 instead of 12, part_x+1 0 instead of 1; frame 28416: boss_timer 2 instead of 3, part_x 0 instead of 12, part_x+1 0 instead of 1; frame 28417: boss_timer 3 instead of 4, part_x 0 instead of 12, part_x+1 0 instead of 1; frame 28418: boss_timer 4 instea"
+      },
+      "the GRAVEYARD WARDEN's variables as the model (its ports, the guns' lives, the patches wanted and made, the rows shown, its colour, the body being made) (5293 times)": {
+        "first_frame": 28463,
+        "detail": "1 failed: frame 28463: wd_life+0 0 instead of 10, wd_life+1 0 instead of 10, wd_life+2 0 instead of 10, wd_life+3 0 instead of 10, wd_have+0 0 instead of 255, wd_have+1 0 instead of 255, wd_have+2 0 instead of 255, wd_have+3 0 instead of 255, wd_have+4 0 instead of 255, wd_colour 0 instead of 14"
+      },
+      "rows 10-14's rock (rock_row, air_rock) as the model: never, but while the GRAVEYARD WARDEN is in level 3's arena, from 0.8.8 the VARKON CORVETTE in level 4's, from 0.8.10 the DEFENSE TURRET ARRAY in level 5's, from 0.8.12 the SUPER-COMPUTER VARKON in level 6's (5384 times)": {
+        "first_frame": 28463,
+        "detail": "1 failed: frame 28463: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff00 instead of 0a0a0a0a0a0a0a0a0b0b0b0b0b0b0b0b0c0c0c0c0c0c0c0c0d0d0d0d0d0d0d0d0e0e0e0e0e0e0e0e01"
+      },
+      "the GRAVEYARD WARDEN's memory as the model (the arena's cells under it, kept; its drawing after the patches) (284 times)": {
+        "first_frame": 28463,
+        "detail": "1 failed: frame 28463: kept byte 0 (row 0, column 0): 0 instead of 1"
+      },
+      "the rock's table (rock_lines: not the scenery, the beams only when on) as the model (11991 times)": {
+        "first_frame": 28463,
+        "detail": "1 failed: frame 28463: byte 215 (row 5, column 15): 119 instead of 0"
+      },
+      "no frame lost: 19656 cycles from a turn to the next (CIA 2's timers, the test's clock) (28709 times)": {
+        "first_frame": 28465,
+        "detail": "2 failed: frame 28465: 23357 cycles; frame 28466: 15954 cycles"
+      }
+    },
+    "frames_lost": [
+      "2 failed: frame 28465: 23357 cycles; frame 28466: 15954 cycles"
+    ],
+    "captures": [
+      {
+        "name": "step11-a.png",
+        "frame": 60,
+        "sha256": "e0ad80f630da932e5ad5ccbc97a40c76a514eae625ee25daf89e371c7cc68eca",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-b.png",
+        "frame": 900,
+        "sha256": "5f89755fb7401b8cfb7ca904c414baa773c36e2dd704fff44b761b0bb11ccb11",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8-a.png",
+        "frame": 6176,
+        "sha256": "a73befe226802f8de0689759703dc0e3cf3a35051f0a956524d8e143693a980d",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8-b.png",
+        "frame": 6876,
+        "sha256": "4bbfbf76004d9a82c30b941d70013c03e851b91e1027fd8c35ee2ee2b7842cc8",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8-c.png",
+        "frame": 8116,
+        "sha256": "c5c099285c6cee280d245d6aae23a5b4e73079e81aa7079d590a42d29b10ad06",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8-d.png",
+        "frame": 8276,
+        "sha256": "1273a4d746d78b2f424c3f2160a977ee4908cef80df5ec4f9ccef540ac10d631",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.2-a.png",
+        "frame": 16836,
+        "sha256": "fb26462a66a6c131aefedb28d090e21adef3d112e594e0c09598bb93defdfa6e",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.2-b.png",
+        "frame": 17436,
+        "sha256": "e6bc33f517c90de8d6bec97f06cffd42e4a79159e852b23faa781b2a163cbb9c",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.2-c.png",
+        "frame": 18716,
+        "sha256": "1166645275685d2b076b2cfae7b5f4f9c9a1f1c7a3cc309aea5a1283a71eac0d",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.2-d.png",
+        "frame": 20776,
+        "sha256": "b00821dc619c361965da74b6574be8315400765e79923d57b8c3d9ee3de51340",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.3-a.png",
+        "frame": 21416,
+        "sha256": "b7d737a6ca0108ac54fec037434b14a8d3b1276f62606eb450223dee778bde91",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.3-b.png",
+        "frame": 21476,
+        "sha256": "330a0e0ec4b18549b9aa3503bd3e75f2673c24126184fb078ac684a7b37611ed",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.3.1-a.png",
+        "frame": 21676,
+        "sha256": "8f6c31f50b7fe9f46d33cef99864cf5a142e172c7e7e36d6dfe649637591ad7e",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.3.1-b.png",
+        "frame": 21876,
+        "sha256": "8f360c6b46b5eb8b42762f3533ac8e3241aca4fa3648e2a1c45c9956acefa456",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.3.1-c.png",
+        "frame": 22776,
+        "sha256": "b2ea7bc4e3db5ad6f725bb04c413566fe3082663ff22bf8a8dd17bb80dfa5c23",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.3.1-d.png",
+        "frame": 23054,
+        "sha256": "87841206f5d9eea140d69188f1534ec43fe736542d061b6b737f3d1c522621cf",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.3.1-e.png",
+        "frame": 23214,
+        "sha256": "dab13a8d417b357ca8d6e66a6fa384c68f6e8b66c307239fa300e8aa5dfebcec",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.5-a.png",
+        "frame": 23422,
+        "sha256": "9655b36e9df68141cb625def3b8bb6f38a6f179763a40e0a103efae11429d261",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.5-b.png",
+        "frame": 23422,
+        "sha256": "7a743f9370959910972f0d04b537e8c8b32b2948740bace1c9c38100a618d7d6",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.4-a.png",
+        "frame": 24022,
+        "sha256": "682a78c44f5a9e40578ee3132652d699518df00d05d8b6414cfeb7b8ffe11f6d",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.4-b.png",
+        "frame": 24548,
+        "sha256": "f43aa2652b05af4adff06b60f89cd361876e5fcacca16b5097d0a6c665a80488",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.4-c.png",
+        "frame": 25622,
+        "sha256": "a2c526d5a80c63ae547a167d1f470eb4e9aedd1bf6a840f1f9357d2876e26950",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.4-d.png",
+        "frame": 26422,
+        "sha256": "9581aa198415e9ea066f2c52008319ba0a6bdd79253de7f97198905650d4b9f4",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.4-e.png",
+        "frame": 27622,
+        "sha256": "0199f9858c682aea7327cac7c54a002884166bd18b6a04ed880fe1618f34ef42",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.4-f.png",
+        "frame": 28522,
+        "sha256": "430d0da148e4d2c3d8567c26781cd702526dea30908be8d9c20e6f9e0c075178",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "step11-0.8.6-a.png",
+        "frame": 28676,
+        "sha256": "00439c09205c86042c6319efcccdb8d1d54618c747c3f18c6054a2cf309bcfb7",
+        "step_has_it": true,
+        "same_as_step": true
+      },
+      {
+        "name": "after.png",
+        "frame": 28715,
+        "sha256": "499e8bd01891c207c8f430f4824a89c0bc3e4cbb36a6ccb10b057c0eb34ead15",
+        "step_has_it": false,
+        "same_as_step": false
+      }
+    ]
+  }
+}

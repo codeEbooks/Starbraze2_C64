@@ -1,0 +1,31 @@
+{
+  "try_twenty_columns": {
+    "offsets": [
+      421
+    ],
+    "addresses": [
+      "$09A4"
+    ],
+    "before": [
+      "28"
+    ],
+    "after": [
+      "14"
+    ],
+    "sha256_after": "ee94e5d2d60363ee1a786cc5c4c3cbef943e3e6ab83abf836f25825eb87b4484",
+    "same_size": true,
+    "cycles": 8000000,
+    "screen_size": [
+      384,
+      272
+    ],
+    "pixels_changed": 7484,
+    "colour_pairs": 5,
+    "changed_box": [
+      199,
+      35,
+      343,
+      211
+    ]
+  }
+}

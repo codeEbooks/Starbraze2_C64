@@ -1,0 +1,1922 @@
+{
+  "step": 13,
+  "program": "variants/13-defense-turret-array/13b-longer-ray/game/build/test/starbraze2.prg",
+  "prg_bytes": 48688,
+  "prg_sha256": "73ea6cc8f89007bb51c7934fb2a8e3bfab97ae15072e91ee1201f168dfdd8491",
+  "vice": "/usr/local/bin/x64sc",
+  "frames": 46549,
+  "events": {
+    "swap": 2376,
+    "hold": 0,
+    "far": 1186,
+    "restart": 12,
+    "gameover": 0
+  },
+  "ship_events": {
+    "shot 0 fired": 184,
+    "weapon 1.1 fires": 57,
+    "Fire: no room for the volley": 2924,
+    "Fire with four shots flying": 2068,
+    "shot 0 past the edge": 132,
+    "pushed down from the overhang": 10,
+    "on the rock while blinking: no damage": 17,
+    "shot 0 half 0 on the rock": 15,
+    "shot 0 half 1 on the rock": 11,
+    "two notches lost": 21,
+    "pushed up from the floor": 10,
+    "exploded": 7,
+    "a ship lost: in again from the left": 7,
+    "shot 1 fired": 28,
+    "weapon 2.1 fires": 28,
+    "shot 1 past the edge": 11,
+    "shot 1 half 0 on the rock": 14,
+    "pushed back from a wall": 20,
+    "shot 2 fired": 91,
+    "weapon 3.1 fires": 91,
+    "shot 2 half 0 on the rock": 4,
+    "shot 2 past the edge": 62,
+    "no ships left: three more": 1,
+    "the ship in again after the key L": 6,
+    "capsule W taken": 6,
+    "weapon 1.2 fires": 100,
+    "capsule S taken": 2,
+    "shot 8 fired": 161,
+    "weapon 2.2 fires": 161,
+    "shot 8 half 0 on the rock": 10,
+    "shot 8 half 1 on the rock": 10,
+    "shot 8 past the edge": 131,
+    "capsule M taken": 2,
+    "missile away": 841,
+    "a weapon level lost": 4,
+    "missile lands": 564,
+    "missile follows the floor": 691,
+    "missile on a wall": 199,
+    "missile off a drop": 71,
+    "a ship more": 2,
+    "missile on a wall, falling": 46,
+    "shot 9 fired": 233,
+    "weapon 3.2 fires": 233,
+    "missile past the edge": 126,
+    "capsule E taken": 2,
+    "capsule E past its most: the bonus": 1,
+    "capsule E past its most: 500 points": 1,
+    "capsule O taken": 1,
+    "the satellite catches up, left": 45,
+    "the satellite catches up, up": 193,
+    "the satellite: no place left": 391,
+    "the satellite fires": 86,
+    "the satellite catches up, down": 211,
+    "shot 14 past the edge": 69,
+    "shot 9 past the edge": 155,
+    "missile on the boss's body": 144,
+    "shot 9 half 0 on the rock": 3,
+    "the ship flies off": 6,
+    "the satellite catches up, right": 126,
+    "the ship gone, right": 6,
+    "the ship in again after STAGE CLEAR": 6,
+    "shot 12 fired": 1715,
+    "weapon 3.3 fires": 1715,
+    "blast 1": 760,
+    "blast over": 797,
+    "missile into a river": 37,
+    "missile under the playfield": 283,
+    "shot 12 past the edge": 953,
+    "shot 3 fired": 23,
+    "shot 4 fired": 23,
+    "shot 5 fired": 23,
+    "weapon 1.3 fires": 23,
+    "shot 3 past the edge": 9,
+    "shot 4 past the edge": 7,
+    "shot 5 past the edge": 9,
+    "shot 14 half 0 on the rock": 8,
+    "shot 4 half 0 on the rock": 13,
+    "shot 3 half 0 on the rock": 9,
+    "shot 5 half 0 on the rock": 9,
+    "capsule M past its most: the bonus": 1,
+    "capsule M past its most: 500 points": 1,
+    "shot 10 fired": 82,
+    "weapon 2.3 fires": 82,
+    "shot 10 half 0 on the rock": 3,
+    "shot 10 past the edge": 70,
+    "shot 13 fired": 207,
+    "weapon 3.4 fires": 207,
+    "shot 13 past the edge": 169,
+    "blast 2": 38,
+    "shot 6 fired": 27,
+    "shot 7 fired": 27,
+    "weapon 1.4 fires": 27,
+    "shot 7 half 1 on the rock": 13,
+    "shot 6 half 0 on the rock": 20,
+    "shot 6 past the edge": 9,
+    "shot 7 past the edge": 14,
+    "shot 7 half 0 on the rock": 12,
+    "shot 6 half 1 on the rock": 11,
+    "the score at its most": 317,
+    "capsule taken while blinking": 2,
+    "the shield full again": 1,
+    "shot 11 fired": 66,
+    "weapon 2.4 fires": 33,
+    "shot 11 past the edge": 66,
+    "shot 6 out of the playfield": 7,
+    "a shot out of the playfield": 7,
+    "shot 13 bursts on the rock": 15,
+    "pushed back from a wall, in the arena": 10,
+    "the satellite lost": 1,
+    "shot 12 bursts on the rock": 313,
+    "through a dimmed beam: not rock": 5,
+    "on a beam: pushed": 4,
+    "through the scenery: not rock": 3918,
+    "a shot on the WARDEN's body in the corridor (rows 10-14)": 63,
+    "on the WARDEN's body in the corridor (rows 10-14)": 3,
+    "a shot on the CORVETTE's body in the corridor (rows 10-14)": 18,
+    "on the CORVETTE's body in the corridor (rows 10-14)": 2,
+    "a shot on the ARRAY's body in the corridor (rows 10-14)": 51,
+    "on the ARRAY's body in the corridor (rows 10-14)": 1,
+    "unhurtable (key I): plasma, no notch lost": 2,
+    "unhurtable (key I): the rock, no notch lost": 2
+  },
+  "varkon_events": {
+    "Varkon 0 in": 105,
+    "Varkon 0 fires": 117,
+    "shot 0 on a Varkon": 42,
+    "Varkon 0 shot down": 69,
+    "explosion over": 510,
+    "Varkon 1 in": 60,
+    "plasma gone": 782,
+    "Varkon 1 fires": 73,
+    "Varkon 5 in": 16,
+    "Varkon 5 hit": 9,
+    "Varkon 1 shot down": 66,
+    "Varkon 5 fires": 13,
+    "Varkon 3 in": 22,
+    "leaper hops": 78,
+    "Varkon 3 fires": 29,
+    "Varkon gone left": 96,
+    "Varkon 3 hit": 8,
+    "Varkon 3 shot down": 19,
+    "Varkon 2 in": 36,
+    "shot 1 on a Varkon": 3,
+    "Varkon 2 shot down": 31,
+    "shot 2 on a Varkon": 25,
+    "Varkon shot: no free place": 45,
+    "Varkon 4 in": 16,
+    "Varkon 4 hit": 22,
+    "turret fires left": 34,
+    "Varkon 4 fires": 38,
+    "Varkon 4 shot down": 15,
+    "plasma on the ship": 24,
+    "Varkon 5 shot down": 13,
+    "capsule M left": 7,
+    "Varkon 4 on the ship": 1,
+    "capsule W left": 8,
+    "capsule S left": 6,
+    "shot 8 on a Varkon": 23,
+    "missile on a Varkon": 42,
+    "turret fires up": 2,
+    "turret fires right": 2,
+    "missile on a Varkon: destroyed": 34,
+    "Varkon 0 on the ship": 1,
+    "shot 9 on a Varkon": 75,
+    "capsule E left": 8,
+    "capsule O left": 6,
+    "shot 14 on a Varkon": 9,
+    "Varkon 6 hit": 60,
+    "Varkon 6 fires": 115,
+    "Varkon 6 shot down": 4,
+    "Varkon 7 hit": 62,
+    "Varkon 7 fires": 70,
+    "Varkon 7 shot down": 2,
+    "a shot bursts on a Varkon": 470,
+    "shot 12 on a Varkon": 447,
+    "shot 5 on a Varkon": 5,
+    "shot 3 on a Varkon": 5,
+    "shot 4 on a Varkon": 3,
+    "laser through a Varkon": 25,
+    "shot 10 on a Varkon": 26,
+    "laser: a Varkon pierced already": 5,
+    "shot 13 on a Varkon": 23,
+    "shot 7 on a Varkon": 1,
+    "shot 11 on a Varkon": 8,
+    "blast on a Varkon": 201,
+    "capsule gone left": 21,
+    "Varkon 1 on the ship": 1,
+    "Varkon 6 on the ship": 2,
+    "Varkon 9 in": 5,
+    "Varkon 9 shot down": 5,
+    "Varkon 8 in": 10,
+    "Varkon 8 shot down": 2,
+    "Varkon 11 in": 6,
+    "a field on the ship: pushed back, two notches": 1,
+    "Varkon 10 in": 3,
+    "a field on the ship while it blinks": 3,
+    "Varkon 10 fires": 1,
+    "Varkon 10 hit": 3,
+    "Varkon 10 shot down": 3,
+    "a field goes down with its core": 6,
+    "Varkon 8 on the ship": 1,
+    "Varkon 9 fires": 2,
+    "Varkon at the path's end": 8,
+    "a shot on a shield's segment": 19,
+    "a Gauss shot bursts on a shield's segment": 10,
+    "Varkon 12 hit": 26,
+    "Varkon 13 hit": 23,
+    "Varkon 13 fires": 34,
+    "Varkon 14 fires": 38,
+    "Varkon 12 on the ship": 1,
+    "a laser stops on a shield's segment": 9,
+    "Varkon 12 shot down": 4,
+    "Varkon 14 hit": 20,
+    "Varkon 14 shot down": 2,
+    "Varkon 13 shot down": 1,
+    "Varkon 19 in": 12,
+    "Varkon 15 in": 101,
+    "Varkon 15 shot down": 81,
+    "Varkon 17 in": 8,
+    "Varkon 19 hit": 10,
+    "Varkon 17 fires its fan": 2,
+    "Varkon 17 fires": 10,
+    "Varkon 19 shot down": 9,
+    "a shard from a rock": 34,
+    "Varkon 20 in": 34,
+    "Varkon 20 shot down": 26,
+    "Varkon 17 shot down": 8,
+    "Varkon 16 in": 25,
+    "Varkon 16 fires its fan": 16,
+    "Varkon 16 fires": 45,
+    "Varkon 16 hit": 21,
+    "Varkon 16 shot down": 25,
+    "Varkon 18 in": 15,
+    "Varkon 19 on the ship": 1,
+    "a mine bursts near the ship": 1,
+    "Varkon 18 fires": 5,
+    "Varkon 18 hit": 1,
+    "Varkon 18 shot down": 14,
+    "Varkon 21 fires": 58,
+    "Varkon 21 hit": 28,
+    "Varkon 21 shot down": 8,
+    "Varkon 22 hit": 33,
+    "Varkon 22 fires": 43,
+    "Varkon 22 shot down": 7,
+    "Varkon 23 in": 9,
+    "Varkon 23 shot down": 6,
+    "Varkon 24 in": 5,
+    "Varkon 24 shot down": 5,
+    "Varkon 25 fires": 69,
+    "Varkon 25 hit": 89,
+    "Varkon 25 shot down": 10,
+    "Varkon 26 fires": 47,
+    "Varkon 26 hit": 81,
+    "Varkon 15 on the ship": 1,
+    "Varkon 26 shot down": 2,
+    "Varkon 15 in, phase 3": 22,
+    "Varkon 15 fires": 21,
+    "Varkon 15 fires, phase 3": 21,
+    "Varkon 15 shot down, phase 3": 20,
+    "Varkon 17 in, phase 3": 2,
+    "Varkon 17 fires, phase 3": 4,
+    "Varkon 17 hit": 2,
+    "Varkon 17 hit, phase 3": 2,
+    "Varkon 17 shot down, phase 3": 2,
+    "Varkon 16 in, phase 3": 6,
+    "Varkon 16 shot down, phase 3": 6,
+    "Varkon 15 hit": 2,
+    "Varkon 15 hit, phase 3": 2,
+    "Varkon 23 in, phase 3": 2,
+    "Varkon 23 hit": 1,
+    "Varkon 23 hit, phase 3": 1,
+    "Varkon 23 shot down, phase 3": 1,
+    "Varkon 21 in": 8,
+    "Varkon 21 in, phase 3": 8,
+    "Varkon 4 in, phase 3": 1,
+    "Varkon 4 hit, phase 3": 1,
+    "Varkon 21 fires, phase 3": 11,
+    "Varkon 4 shot down, phase 3": 1,
+    "Varkon gone left, phase 3": 5,
+    "Varkon 18 in, phase 3": 1,
+    "Varkon 18 fires, phase 3": 1,
+    "a hanging turret fires down-left": 2,
+    "Varkon 23 fires": 8,
+    "Varkon 23 fires, phase 3": 8,
+    "Varkon 18 shot down, phase 3": 1,
+    "a hanging turret fires down": 4,
+    "a hanging turret fires down-right": 2,
+    "Varkon 22 in": 6,
+    "Varkon 22 in, phase 3": 6,
+    "Varkon 22 shot down, phase 3": 6,
+    "a laser mine fires its ray": 6,
+    "Varkon 22 fires its fan": 6,
+    "Varkon 22 fires its fan, phase 3": 6,
+    "Varkon 22 fires, phase 3": 18,
+    "Varkon 21 shot down, phase 3": 4,
+    "Varkon 16 fires, phase 3": 1,
+    "Varkon 25 fires, phase 3": 51,
+    "Varkon 25 hit, phase 3": 64,
+    "Varkon shot: no free place, phase 3": 3,
+    "Varkon 25 shot down, phase 3": 6,
+    "Varkon 26 hit, phase 3": 57,
+    "Varkon 26 fires, phase 3": 11,
+    "Varkon 26 shot down, phase 3": 1
+  },
+  "sound_events": {
+    "song 0 from its start": 10,
+    "shot_double on voice 3": 26,
+    "music in MUSIC + FX": 11645,
+    "music: a step": 3785,
+    "music: a note, its first waveform $40": 3312,
+    "music: a note, its first waveform $80": 483,
+    "plasma on voice 3": 166,
+    "shot_double kept off voice 3": 18,
+    "boom on voice 3": 106,
+    "hurt on voice 3": 39,
+    "explode on voice 3": 59,
+    "plasma kept off voice 3": 24,
+    "boom kept off voice 3": 4,
+    "mode SOUND FX": 3,
+    "plasma on voice 2": 428,
+    "shot_double on voice 1": 36,
+    "boom on voice 2": 252,
+    "plasma kept off voice 2": 51,
+    "shot_needle on voice 1": 28,
+    "shot_slug on voice 1": 1431,
+    "mode SILENT": 1,
+    "mode MUSIC": 3,
+    "music in MUSIC": 6261,
+    "music: a note, its first waveform $20": 218,
+    "the song again": 15,
+    "mode MUSIC + FX": 3,
+    "shot_needle on voice 3": 72,
+    "shot_needle kept off voice 3": 38,
+    "missile on voice 3": 122,
+    "capsule on voice 3": 26,
+    "missile kept off voice 3": 61,
+    "shot_slug on voice 3": 388,
+    "missile on voice 1": 579,
+    "laser on voice 3": 36,
+    "laser kept off voice 3": 26,
+    "shot_slug kept off voice 3": 133,
+    "laser on voice 1": 59,
+    "song 1 from its start": 4,
+    "the station's theme (phase 3's song 1) from its start": 2,
+    "music: a note, its first waveform $10": 108
+  },
+  "boss_events": {
+    "the arena": 6,
+    "the boss comes": 2,
+    "the body flips": 1706,
+    "the boss at its station": 2,
+    "a cannon fires its fan, aim 0": 42,
+    "a drone launched up": 20,
+    "cannon A destroyed": 2,
+    "a drone launched low": 20,
+    "cannon B destroyed": 2,
+    "the hatch opens": 2,
+    "the core risen": 2,
+    "the core destroyed": 2,
+    "the boss's death: a Varkon explodes": 3,
+    "the boss's death: a plasma shot gone": 17,
+    "the boss destroyed": 6,
+    "a fireball of the chain": 60,
+    "the wreck": 6,
+    "STAGE CLEAR": 6,
+    "a notch into the score": 23,
+    "the level again after STAGE CLEAR": 6,
+    "a cannon aims up": 4,
+    "a cannon aims left": 7,
+    "a cannon aims high": 3,
+    "a cannon fires its fan, aim 2": 3,
+    "a cannon fires its fan, aim 1": 2,
+    "the SHIELD CORE comes": 1,
+    "the arena's characters into the sphere's codes": 6,
+    "the sphere's cells on": 1,
+    "the sphere grows": 24,
+    "the SHIELD CORE fights": 1,
+    "a segment fully open": 17,
+    "the top pod aims low": 2,
+    "the top pod fires its fan, aim 2": 2,
+    "a new gap": 16,
+    "the low pod aims high": 2,
+    "the low pod fires its fan, aim 2": 4,
+    "a destroyed segment left in place": 2197,
+    "the top pod aims down": 1,
+    "the top pod fires its fan, aim 1": 2,
+    "the low pod aims up": 1,
+    "the low pod fires its fan, aim 1": 2,
+    "the top pod aims left": 1,
+    "the top pod fires its fan, aim 0": 1,
+    "the top pod destroyed": 1,
+    "the low pod aims left": 1,
+    "the low pod fires its fan, aim 0": 2,
+    "the low pod destroyed": 1,
+    "RAGE: half the core's life": 1,
+    "RAGE: a burst's pause": 6,
+    "the SHIELD CORE's core destroyed": 1,
+    "the sphere white": 10,
+    "the sphere's colours again": 10,
+    "the sphere gone: the arena's cells again": 1,
+    "the GRAVEYARD WARDEN comes": 1,
+    "the WARDEN: a patch into its drawing": 18,
+    "the WARDEN's body flips": 269,
+    "the WARDEN leaves a row: the arena's cells": 44,
+    "the WARDEN over the nebula": 3983,
+    "the WARDEN at its station": 1,
+    "port 0 opens": 2,
+    "a gun aims down": 1,
+    "a gun, down fires its fan, aim 1": 1,
+    "a gun aims left": 8,
+    "a gun aims low": 13,
+    "a gun, down fires its fan, aim 2": 13,
+    "port 0 shuts, its gun back in": 1,
+    "port 2 opens": 1,
+    "a gun, down fires its fan, aim 0": 2,
+    "port 2 destroyed: broken off": 1,
+    "port 1 opens": 2,
+    "port 1 shuts, its gun back in": 1,
+    "port 3 opens": 1,
+    "port 3 destroyed: broken off": 1,
+    "port 0 destroyed: broken off": 1,
+    "port 1 destroyed: broken off": 1,
+    "the WARDEN bare: no port left": 1,
+    "the WARDEN's core shows": 1,
+    "the WARDEN's core sheds two shards": 4,
+    "the WARDEN's core: faster": 1,
+    "the WARDEN's core destroyed": 1,
+    "the CORVETTE: a column of a phase made": 39,
+    "the VARKON CORVETTE comes": 1,
+    "the CORVETTE over the far layer": 870,
+    "the CORVETTE's body flips": 150,
+    "the CORVETTE leaves a cell: the arena's": 250,
+    "the CORVETTE at its station: its deck's turrets": 1,
+    "a turret aims up": 1,
+    "a turret, up fires its fan, aim 1": 1,
+    "a scout from the hangar, up": 5,
+    "a turret aims low": 5,
+    "a turret, down fires its fan, aim 2": 5,
+    "a turret aims left": 2,
+    "a scout from the hangar, low": 4,
+    "turret 0 destroyed": 1,
+    "turret 1 destroyed": 1,
+    "the deck's turrets destroyed: the wait": 1,
+    "the keel's turrets come": 1,
+    "turret 2 destroyed": 1,
+    "turret 3 destroyed": 1,
+    "the CORVETTE's turrets all destroyed": 1,
+    "the CORVETTE's bridge: its dome": 1,
+    "the CORVETTE's bridge: faster": 1,
+    "the CORVETTE's bridge destroyed": 1,
+    "the ARRAY: four of its codes made": 13,
+    "the ARRAY: a picture of its parts made": 4,
+    "the DEFENSE TURRET ARRAY comes": 1,
+    "the ARRAY closes in: a row of its cells": 17,
+    "the ARRAY closed in: the fight": 1,
+    "a row of the ARRAY: half open": 8,
+    "a patch of the ARRAY: 0 to 1": 5,
+    "row 0 of the ARRAY open: its turrets": 3,
+    "a patch of the ARRAY: 0 to 2": 3,
+    "a turret of the ARRAY aims low": 10,
+    "a turret of the ARRAY, down fires its fan, aim 2": 10,
+    "a turret of the ARRAY aims down": 1,
+    "a turret of the ARRAY, down fires its fan, aim 1": 1,
+    "a turret of the ARRAY aims left": 2,
+    "a turret of the ARRAY, down fires its fan, aim 0": 7,
+    "a turret of the ARRAY back in": 7,
+    "a row of the ARRAY: half shut": 5,
+    "a row of the ARRAY shut": 5,
+    "a patch of the ARRAY: 0 to 0": 2,
+    "a patch of the ARRAY: 1 to 1": 3,
+    "row 1 of the ARRAY open: its turrets": 2,
+    "a patch of the ARRAY: 1 to 2": 2,
+    "turret 3 of the ARRAY destroyed": 1,
+    "a patch of the ARRAY: 1 to 0": 1,
+    "a patch of the ARRAY: 2 to 1": 5,
+    "row 2 of the ARRAY open: its turrets": 3,
+    "a patch of the ARRAY: 2 to 2": 3,
+    "a patch of the ARRAY: 2 to 0": 2,
+    "turret 1 of the ARRAY destroyed": 1,
+    "turret 2 of the ARRAY destroyed": 1,
+    "a row's turrets destroyed: it stays open": 2,
+    "turret 4 of the ARRAY destroyed": 1,
+    "turret 0 of the ARRAY destroyed": 1,
+    "turret 5 of the ARRAY destroyed": 1,
+    "the ARRAY's turrets all destroyed": 1,
+    "the ARRAY's hatch half open": 1,
+    "a patch of the ARRAY: 3 to 1": 1,
+    "the ARRAY's hatch open": 1,
+    "a patch of the ARRAY: 3 to 2": 1,
+    "the ARRAY's core: its lens": 1,
+    "the ARRAY's lens warns": 6,
+    "the ARRAY's ray": 6,
+    "the ARRAY's ray drawn": 6,
+    "the ARRAY's ray on the ship": 2,
+    "the ARRAY's ray shimmers": 88,
+    "the ARRAY's ray off: the arena's cells again": 6,
+    "the ARRAY's ray: the ship off its lines": 300,
+    "the ARRAY's lens: shorter calms": 3,
+    "the ARRAY's lens destroyed": 1
+  },
+  "escape_events": {},
+  "escape_frames_not_compared_as_pictures": {
+    "frames": 0,
+    "first": [],
+    "last": []
+  },
+  "multiplexer": {
+    "frames": 46538,
+    "left out": 19386,
+    "crowded": 19386,
+    "left out: the object itself": 6278,
+    "left out: an entry, for a later one": 13108,
+    "most shown": 17,
+    "most objects": 17,
+    "frames with some left out": 9935,
+    "left_out_by_class": {
+      "ship's shots": 13955,
+      "Varkon": 2847,
+      "Varkon's shots": 2584
+    }
+  },
+  "cycles_from_joy_ready_to_frame_ready": {
+    "arena, array patch": {
+      "turns": 28,
+      "max_cycles": 9205,
+      "min_cycles": 5365
+    },
+    "arena, array ray off": {
+      "turns": 6,
+      "max_cycles": 8458,
+      "min_cycles": 6083
+    },
+    "arena, array ray on": {
+      "turns": 6,
+      "max_cycles": 10270,
+      "min_cycles": 7660
+    },
+    "arena, array row": {
+      "turns": 17,
+      "max_cycles": 7352,
+      "min_cycles": 6117
+    },
+    "arena, array shimmer": {
+      "turns": 88,
+      "max_cycles": 7904,
+      "min_cycles": 4938
+    },
+    "arena, body 0-7": {
+      "turns": 1706,
+      "max_cycles": 17341,
+      "min_cycles": 8607
+    },
+    "arena, body 8-14, flip": {
+      "turns": 1706,
+      "max_cycles": 18080,
+      "min_cycles": 9686
+    },
+    "arena, corvette column 0": {
+      "turns": 110,
+      "max_cycles": 13031,
+      "min_cycles": 7705
+    },
+    "arena, corvette column 0-1": {
+      "turns": 40,
+      "max_cycles": 10205,
+      "min_cycles": 6294
+    },
+    "arena, corvette column 1": {
+      "turns": 110,
+      "max_cycles": 12804,
+      "min_cycles": 7595
+    },
+    "arena, corvette column 10": {
+      "turns": 110,
+      "max_cycles": 12607,
+      "min_cycles": 7201
+    },
+    "arena, corvette column 10-11": {
+      "turns": 40,
+      "max_cycles": 8015,
+      "min_cycles": 4972
+    },
+    "arena, corvette column 11": {
+      "turns": 110,
+      "max_cycles": 11482,
+      "min_cycles": 7177
+    },
+    "arena, corvette column 12": {
+      "turns": 110,
+      "max_cycles": 12091,
+      "min_cycles": 7234
+    },
+    "arena, corvette column 12-13": {
+      "turns": 40,
+      "max_cycles": 7504,
+      "min_cycles": 4326
+    },
+    "arena, corvette column 2": {
+      "turns": 110,
+      "max_cycles": 11994,
+      "min_cycles": 7616
+    },
+    "arena, corvette column 2-3": {
+      "turns": 40,
+      "max_cycles": 10751,
+      "min_cycles": 6206
+    },
+    "arena, corvette column 3": {
+      "turns": 110,
+      "max_cycles": 12408,
+      "min_cycles": 7768
+    },
+    "arena, corvette column 4": {
+      "turns": 110,
+      "max_cycles": 12135,
+      "min_cycles": 7727
+    },
+    "arena, corvette column 4-5": {
+      "turns": 40,
+      "max_cycles": 9023,
+      "min_cycles": 5787
+    },
+    "arena, corvette column 5": {
+      "turns": 110,
+      "max_cycles": 11691,
+      "min_cycles": 7338
+    },
+    "arena, corvette column 6": {
+      "turns": 110,
+      "max_cycles": 11749,
+      "min_cycles": 7450
+    },
+    "arena, corvette column 6-7": {
+      "turns": 40,
+      "max_cycles": 8663,
+      "min_cycles": 5378
+    },
+    "arena, corvette column 7": {
+      "turns": 110,
+      "max_cycles": 11598,
+      "min_cycles": 7221
+    },
+    "arena, corvette column 8": {
+      "turns": 110,
+      "max_cycles": 10908,
+      "min_cycles": 7201
+    },
+    "arena, corvette column 8-9": {
+      "turns": 40,
+      "max_cycles": 8030,
+      "min_cycles": 5346
+    },
+    "arena, corvette column 9": {
+      "turns": 110,
+      "max_cycles": 12795,
+      "min_cycles": 7182
+    },
+    "arena, corvette flip": {
+      "turns": 150,
+      "max_cycles": 13834,
+      "min_cycles": 5315
+    },
+    "arena, none": {
+      "turns": 9862,
+      "max_cycles": 15660,
+      "min_cycles": 3426
+    },
+    "arena, none, grows": {
+      "turns": 24,
+      "max_cycles": 11974,
+      "min_cycles": 8750
+    },
+    "arena, sphere 1": {
+      "turns": 1,
+      "max_cycles": 11144,
+      "min_cycles": 11144
+    },
+    "arena, sphere 2": {
+      "turns": 10,
+      "max_cycles": 6108,
+      "min_cycles": 4848
+    },
+    "arena, sphere 3": {
+      "turns": 10,
+      "max_cycles": 7053,
+      "min_cycles": 5394
+    },
+    "arena, sphere 4": {
+      "turns": 1,
+      "max_cycles": 6780,
+      "min_cycles": 6780
+    },
+    "arena, warden column 0": {
+      "turns": 269,
+      "max_cycles": 16658,
+      "min_cycles": 7700
+    },
+    "arena, warden column 1": {
+      "turns": 269,
+      "max_cycles": 15642,
+      "min_cycles": 7347
+    },
+    "arena, warden column 2": {
+      "turns": 269,
+      "max_cycles": 15323,
+      "min_cycles": 7271
+    },
+    "arena, warden column 3": {
+      "turns": 269,
+      "max_cycles": 16185,
+      "min_cycles": 7303
+    },
+    "arena, warden column 4": {
+      "turns": 269,
+      "max_cycles": 16584,
+      "min_cycles": 7360
+    },
+    "arena, warden column 5": {
+      "turns": 269,
+      "max_cycles": 15137,
+      "min_cycles": 7324
+    },
+    "arena, warden column 6": {
+      "turns": 269,
+      "max_cycles": 15671,
+      "min_cycles": 7327
+    },
+    "arena, warden flip": {
+      "turns": 269,
+      "max_cycles": 16586,
+      "min_cycles": 6325
+    },
+    "stage 0": {
+      "turns": 2383,
+      "max_cycles": 16142,
+      "min_cycles": 4689
+    },
+    "stage 1": {
+      "turns": 2382,
+      "max_cycles": 15628,
+      "min_cycles": 4729
+    },
+    "stage 2": {
+      "turns": 2382,
+      "max_cycles": 15288,
+      "min_cycles": 4744
+    },
+    "stage 3": {
+      "turns": 2380,
+      "max_cycles": 16689,
+      "min_cycles": 4998
+    },
+    "stage 4": {
+      "turns": 2380,
+      "max_cycles": 16479,
+      "min_cycles": 4434
+    },
+    "stage 5": {
+      "turns": 2378,
+      "max_cycles": 15831,
+      "min_cycles": 4620
+    },
+    "stage 6": {
+      "turns": 1190,
+      "max_cycles": 14012,
+      "min_cycles": 3873
+    },
+    "stage 6 + far": {
+      "turns": 1186,
+      "max_cycles": 17067,
+      "min_cycles": 4941
+    },
+    "stage waits": {
+      "turns": 10023,
+      "max_cycles": 13927,
+      "min_cycles": 2894
+    },
+    "swap": {
+      "turns": 2376,
+      "max_cycles": 16136,
+      "min_cycles": 4752
+    }
+  },
+  "deadlines_smallest_margin": {
+    "the multiplexer's writes: after the sprite's object before, before its own line": {
+      "margin_lines": 0,
+      "line": 167,
+      "deadline_line": 168,
+      "frame": 13625
+    },
+    "rows 0-9 of the next frame (stars, colour RAM): after the beam drew them, before it draws them again": {
+      "margin_lines": 177,
+      "line": 194,
+      "deadline_line": 59,
+      "frame": 9392
+    },
+    "colour RAM rows 15-21, in the swap: row R moved before row R": {
+      "margin_lines": 137,
+      "line": 34,
+      "deadline_line": 171,
+      "frame": 9983
+    },
+    "far rows moved before row 11": {
+      "margin_lines": 77,
+      "line": 62,
+      "deadline_line": 139,
+      "frame": 2695
+    },
+    "sprites written before line 50": {
+      "margin_lines": 17,
+      "line": 33,
+      "deadline_line": 50,
+      "frame": 9404
+    }
+  },
+  "multiplexer_write_lines_after_its_start": {
+    "lines": 4,
+    "line": 135,
+    "frame": 882,
+    "entry": 8,
+    "allowed": 4
+  },
+  "ahead_end": {
+    "lines_before_227": 4,
+    "line": 223,
+    "frame": 6152
+  },
+  "rows_0_9_in_a_level_start_turn": 4,
+  "turn_cycles": {
+    "turns": 46536,
+    "min": 19648,
+    "max": 19702
+  },
+  "sound_cycles": {
+    "frames": 46548,
+    "max": 3052,
+    "mean": 398
+  },
+  "colours_at_once": {
+    "turns": 2376,
+    "first": [
+      [
+        15,
+        9
+      ],
+      [
+        31,
+        9
+      ],
+      [
+        47,
+        9
+      ],
+      [
+        63,
+        9
+      ],
+      [
+        79,
+        9
+      ]
+    ]
+  },
+  "ahead_end_by_turn": {
+    "arena, array patch": {
+      "lines_before_227": 146,
+      "line": 81,
+      "frame": 43444
+    },
+    "arena, array ray off": {
+      "lines_before_227": 163,
+      "line": 64,
+      "frame": 45063
+    },
+    "arena, array ray on": {
+      "lines_before_227": 133,
+      "line": 94,
+      "frame": 45182
+    },
+    "arena, array row": {
+      "lines_before_227": 178,
+      "line": 49,
+      "frame": 42288
+    },
+    "arena, array shimmer": {
+      "lines_before_227": 172,
+      "line": 55,
+      "frame": 45007
+    },
+    "arena, body 0-7": {
+      "lines_before_227": 15,
+      "line": 212,
+      "frame": 6164
+    },
+    "arena, body 8-14, flip": {
+      "lines_before_227": 4,
+      "line": 223,
+      "frame": 6152
+    },
+    "arena, corvette column 0": {
+      "lines_before_227": 97,
+      "line": 130,
+      "frame": 35638
+    },
+    "arena, corvette column 0-1": {
+      "lines_before_227": 142,
+      "line": 85,
+      "frame": 35243
+    },
+    "arena, corvette column 1": {
+      "lines_before_227": 100,
+      "line": 127,
+      "frame": 35702
+    },
+    "arena, corvette column 10": {
+      "lines_before_227": 100,
+      "line": 127,
+      "frame": 35739
+    },
+    "arena, corvette column 10-11": {
+      "lines_before_227": 177,
+      "line": 50,
+      "frame": 35512
+    },
+    "arena, corvette column 11": {
+      "lines_before_227": 121,
+      "line": 106,
+      "frame": 35607
+    },
+    "arena, corvette column 12": {
+      "lines_before_227": 106,
+      "line": 121,
+      "frame": 37066
+    },
+    "arena, corvette column 12-13": {
+      "lines_before_227": 185,
+      "line": 42,
+      "frame": 35513
+    },
+    "arena, corvette column 2": {
+      "lines_before_227": 113,
+      "line": 114,
+      "frame": 35612
+    },
+    "arena, corvette column 2-3": {
+      "lines_before_227": 133,
+      "line": 94,
+      "frame": 35292
+    },
+    "arena, corvette column 3": {
+      "lines_before_227": 107,
+      "line": 120,
+      "frame": 35718
+    },
+    "arena, corvette column 4": {
+      "lines_before_227": 111,
+      "line": 116,
+      "frame": 35614
+    },
+    "arena, corvette column 4-5": {
+      "lines_before_227": 162,
+      "line": 65,
+      "frame": 35301
+    },
+    "arena, corvette column 5": {
+      "lines_before_227": 119,
+      "line": 108,
+      "frame": 35615
+    },
+    "arena, corvette column 6": {
+      "lines_before_227": 118,
+      "line": 109,
+      "frame": 35616
+    },
+    "arena, corvette column 6-7": {
+      "lines_before_227": 166,
+      "line": 61,
+      "frame": 35510
+    },
+    "arena, corvette column 7": {
+      "lines_before_227": 121,
+      "line": 106,
+      "frame": 35617
+    },
+    "arena, corvette column 8": {
+      "lines_before_227": 121,
+      "line": 106,
+      "frame": 35590
+    },
+    "arena, corvette column 8-9": {
+      "lines_before_227": 177,
+      "line": 50,
+      "frame": 35511
+    },
+    "arena, corvette column 9": {
+      "lines_before_227": 97,
+      "line": 130,
+      "frame": 35738
+    },
+    "arena, corvette flip": {
+      "lines_before_227": 84,
+      "line": 143,
+      "frame": 37095
+    },
+    "arena, none": {
+      "lines_before_227": 55,
+      "line": 172,
+      "frame": 21614
+    },
+    "arena, none, grows": {
+      "lines_before_227": 115,
+      "line": 112,
+      "frame": 21400
+    },
+    "arena, sphere 1": {
+      "lines_before_227": 126,
+      "line": 101,
+      "frame": 21393
+    },
+    "arena, sphere 2": {
+      "lines_before_227": 202,
+      "line": 25,
+      "frame": 23076
+    },
+    "arena, sphere 3": {
+      "lines_before_227": 191,
+      "line": 36,
+      "frame": 23133
+    },
+    "arena, sphere 4": {
+      "lines_before_227": 196,
+      "line": 31,
+      "frame": 23151
+    },
+    "arena, warden column 0": {
+      "lines_before_227": 41,
+      "line": 186,
+      "frame": 29914
+    },
+    "arena, warden column 1": {
+      "lines_before_227": 54,
+      "line": 173,
+      "frame": 30411
+    },
+    "arena, warden column 2": {
+      "lines_before_227": 59,
+      "line": 168,
+      "frame": 30412
+    },
+    "arena, warden column 3": {
+      "lines_before_227": 45,
+      "line": 182,
+      "frame": 30413
+    },
+    "arena, warden column 4": {
+      "lines_before_227": 41,
+      "line": 186,
+      "frame": 30406
+    },
+    "arena, warden column 5": {
+      "lines_before_227": 60,
+      "line": 167,
+      "frame": 30407
+    },
+    "arena, warden column 6": {
+      "lines_before_227": 55,
+      "line": 172,
+      "frame": 30408
+    },
+    "arena, warden flip": {
+      "lines_before_227": 39,
+      "line": 188,
+      "frame": 30409
+    },
+    "stage 0": {
+      "lines_before_227": 15,
+      "line": 212,
+      "frame": 9368
+    },
+    "stage 1": {
+      "lines_before_227": 34,
+      "line": 193,
+      "frame": 20778
+    },
+    "stage 2": {
+      "lines_before_227": 41,
+      "line": 186,
+      "frame": 8858
+    },
+    "stage 3": {
+      "lines_before_227": 33,
+      "line": 194,
+      "frame": 9895
+    },
+    "stage 4": {
+      "lines_before_227": 14,
+      "line": 213,
+      "frame": 9380
+    },
+    "stage 5": {
+      "lines_before_227": 41,
+      "line": 186,
+      "frame": 9899
+    },
+    "stage 6": {
+      "lines_before_227": 67,
+      "line": 160,
+      "frame": 8813
+    },
+    "stage 6 + far": {
+      "lines_before_227": 23,
+      "line": 204,
+      "frame": 9917
+    },
+    "stage 6 + far, before a swap": {
+      "lines_before_227": 30,
+      "line": 197,
+      "frame": 9406
+    },
+    "stage 6, before a swap": {
+      "lines_before_227": 49,
+      "line": 178,
+      "frame": 12182
+    },
+    "stage waits": {
+      "lines_before_227": 39,
+      "line": 188,
+      "frame": 8752
+    },
+    "stage waits, before a swap": {
+      "lines_before_227": 44,
+      "line": 183,
+      "frame": 9918
+    },
+    "swap": {
+      "lines_before_227": 37,
+      "line": 190,
+      "frame": 8847
+    }
+  },
+  "ahead_end_by_level": {
+    "level 1": {
+      "lines_before_227": 4,
+      "line": 223,
+      "frame": 6152
+    },
+    "level 2": {
+      "lines_before_227": 34,
+      "line": 193,
+      "frame": 20778
+    },
+    "level 3": {
+      "lines_before_227": 39,
+      "line": 188,
+      "frame": 30409
+    },
+    "level 4": {
+      "lines_before_227": 40,
+      "line": 187,
+      "frame": 32562
+    },
+    "level 5": {
+      "lines_before_227": 36,
+      "line": 191,
+      "frame": 38073
+    }
+  },
+  "captures": [
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-a.png",
+      "frame": 60,
+      "sha256": "e0ad80f630da932e5ad5ccbc97a40c76a514eae625ee25daf89e371c7cc68eca"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-b.png",
+      "frame": 900,
+      "sha256": "5f89755fb7401b8cfb7ca904c414baa773c36e2dd704fff44b761b0bb11ccb11"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8-a.png",
+      "frame": 6176,
+      "sha256": "a73befe226802f8de0689759703dc0e3cf3a35051f0a956524d8e143693a980d"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8-b.png",
+      "frame": 6876,
+      "sha256": "4bbfbf76004d9a82c30b941d70013c03e851b91e1027fd8c35ee2ee2b7842cc8"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8-c.png",
+      "frame": 8116,
+      "sha256": "c5c099285c6cee280d245d6aae23a5b4e73079e81aa7079d590a42d29b10ad06"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8-d.png",
+      "frame": 8276,
+      "sha256": "1273a4d746d78b2f424c3f2160a977ee4908cef80df5ec4f9ccef540ac10d631"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.2-a.png",
+      "frame": 16836,
+      "sha256": "fb26462a66a6c131aefedb28d090e21adef3d112e594e0c09598bb93defdfa6e"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.2-b.png",
+      "frame": 17436,
+      "sha256": "e6bc33f517c90de8d6bec97f06cffd42e4a79159e852b23faa781b2a163cbb9c"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.2-c.png",
+      "frame": 18716,
+      "sha256": "1166645275685d2b076b2cfae7b5f4f9c9a1f1c7a3cc309aea5a1283a71eac0d"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.2-d.png",
+      "frame": 20776,
+      "sha256": "b00821dc619c361965da74b6574be8315400765e79923d57b8c3d9ee3de51340"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.3-a.png",
+      "frame": 21416,
+      "sha256": "b7d737a6ca0108ac54fec037434b14a8d3b1276f62606eb450223dee778bde91"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.3-b.png",
+      "frame": 21476,
+      "sha256": "330a0e0ec4b18549b9aa3503bd3e75f2673c24126184fb078ac684a7b37611ed"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.3.1-a.png",
+      "frame": 21676,
+      "sha256": "8f6c31f50b7fe9f46d33cef99864cf5a142e172c7e7e36d6dfe649637591ad7e"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.3.1-b.png",
+      "frame": 21876,
+      "sha256": "8f360c6b46b5eb8b42762f3533ac8e3241aca4fa3648e2a1c45c9956acefa456"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.3.1-c.png",
+      "frame": 22776,
+      "sha256": "b2ea7bc4e3db5ad6f725bb04c413566fe3082663ff22bf8a8dd17bb80dfa5c23"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.3.1-d.png",
+      "frame": 23054,
+      "sha256": "87841206f5d9eea140d69188f1534ec43fe736542d061b6b737f3d1c522621cf"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.3.1-e.png",
+      "frame": 23214,
+      "sha256": "dab13a8d417b357ca8d6e66a6fa384c68f6e8b66c307239fa300e8aa5dfebcec"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.5-a.png",
+      "frame": 23422,
+      "sha256": "9655b36e9df68141cb625def3b8bb6f38a6f179763a40e0a103efae11429d261"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.5-b.png",
+      "frame": 23422,
+      "sha256": "7a743f9370959910972f0d04b537e8c8b32b2948740bace1c9c38100a618d7d6"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.4-a.png",
+      "frame": 24022,
+      "sha256": "682a78c44f5a9e40578ee3132652d699518df00d05d8b6414cfeb7b8ffe11f6d"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.4-b.png",
+      "frame": 24548,
+      "sha256": "f43aa2652b05af4adff06b60f89cd361876e5fcacca16b5097d0a6c665a80488"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.4-c.png",
+      "frame": 25622,
+      "sha256": "a2c526d5a80c63ae547a167d1f470eb4e9aedd1bf6a840f1f9357d2876e26950"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.4-d.png",
+      "frame": 26422,
+      "sha256": "9581aa198415e9ea066f2c52008319ba0a6bdd79253de7f97198905650d4b9f4"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.4-e.png",
+      "frame": 27622,
+      "sha256": "0199f9858c682aea7327cac7c54a002884166bd18b6a04ed880fe1618f34ef42"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.4-f.png",
+      "frame": 28522,
+      "sha256": "430d0da148e4d2c3d8567c26781cd702526dea30908be8d9c20e6f9e0c075178"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.6-a.png",
+      "frame": 28676,
+      "sha256": "00439c09205c86042c6319efcccdb8d1d54618c747c3f18c6054a2cf309bcfb7"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.6-b.png",
+      "frame": 28856,
+      "sha256": "ed0ee376680d56b1e40f80504901803aeac589715a41bc4ef3d7f5eb322cb730"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.6-c.png",
+      "frame": 28942,
+      "sha256": "99fc347ef58cc67aacccfa5610e9952d10d651355865371d63de59cc3056ebc1"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.6-d.png",
+      "frame": 29191,
+      "sha256": "65552ca3fab05053481a89c98d7a7364bc61726a82a67ebd2779d1b7378bdd74"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.6-e.png",
+      "frame": 29976,
+      "sha256": "cd4d1b99f43e4fc4865d53fc30997230a8c6a633371091104bb77e4389ef85f3"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.6-f.png",
+      "frame": 30716,
+      "sha256": "26261ea53fb516b5f3fa3e009eeb8f66bbf646e726c147d707f9b6bafcf44a35"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.6-g.png",
+      "frame": 30876,
+      "sha256": "8d33d0379a3bec2aa7e3fe6c048b327bc00273f08b291552c779e6176204d32e"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.7-a.png",
+      "frame": 31376,
+      "sha256": "c42f86f7d6e8b8f855f890304a73da517aa01d27e028c49c7b6fa030b5b90c76"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.7-b.png",
+      "frame": 32376,
+      "sha256": "0f17005b0546bfce12b45d2f8cc393fd5ac98d9b40a7fb49e84e452ddf91b820"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.7-c.png",
+      "frame": 32976,
+      "sha256": "2ffbb60f3db08ef26643c9058c9a531d27b79a51b57ea330b6bfd0396509bc5f"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.7-d.png",
+      "frame": 33976,
+      "sha256": "ca19c9342af7434c5663f5348711c754ed1f4633fa09aecbd92e193b18dcfbac"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.7-e.png",
+      "frame": 34736,
+      "sha256": "f77f65294ff6cdb725a204801c4077cd7546f639a865f8513443d8e39e45da3d"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.7-f.png",
+      "frame": 35236,
+      "sha256": "6560aef4d2f98346b9cbb6cb772a5820d15b51359f4c030e469981918dca782f"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.8-a.png",
+      "frame": 35376,
+      "sha256": "4d366421cdfd7f6a06260eac40755dfb7365c15f1482e5775429417cf7e23204"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.8-b.png",
+      "frame": 35422,
+      "sha256": "84cf62c2c144393aeda05f274ae5e8c7d1ec576219d996218f4c26ffaaa0ed4a"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.8-c.png",
+      "frame": 35596,
+      "sha256": "3ca2558b945e0b623ef3ee6493224f952a84fcbaac95b86bb37aaedbad307b75"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.8-d.png",
+      "frame": 36076,
+      "sha256": "b01e249b11f69a0dbac5d4224b096607b8b4f2e36516a5c3a2f08f01427b7ec7"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.8-e.png",
+      "frame": 36376,
+      "sha256": "bab28f4083076b9bbee1c4d0a95c7ccf155cdb155e06de153976e8dadcdbf6ec"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.8-f.png",
+      "frame": 37316,
+      "sha256": "561a580dd7acc0bd3e4a333653e4cfd3306e79efd7edf471ef4f37717cc97bef"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.8-g.png",
+      "frame": 37476,
+      "sha256": "7ff2e57dd842c81cc9ed579c9d7c8862824695e76a9ee1766d41c670bc47aa98"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.9-g.png",
+      "frame": 37674,
+      "sha256": "5e906b31cbaaca0a60e43dd17ab2c25c8c354236526057da835fafd004966533"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.9-a.png",
+      "frame": 37976,
+      "sha256": "a87979900c7f3070fac79c4bf8a624f292130d2653d95cb63b6ce3d5f9d06aad"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.9-b.png",
+      "frame": 38636,
+      "sha256": "766b5bc7030ca722d3b6db679bfd664b9b11b8a0e81174610264853d6f14520e"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.9-c.png",
+      "frame": 39321,
+      "sha256": "8550abd7b2e9ec8e794d5f03853f9ce1ea39d0706b2c02364da88b5f0949d091"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.9-d.png",
+      "frame": 40176,
+      "sha256": "23d5985398ab50f5be8a8aa002afff13b864ba1506260ab389f3205ceae34be1"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.9-e.png",
+      "frame": 41076,
+      "sha256": "68557d5b200924948498203647846384e767bee135400c238815bd27cc9604c5"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.10-a.png",
+      "frame": 42281,
+      "sha256": "2ffc9adb2dadf193f8b07586ea09303f63544bf01cc763c43f849dbdd579d06f"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.9-f.png",
+      "frame": 42336,
+      "sha256": "bce7beeda64d6d895b97e89d5c8c7a1aa2145f07c02d9de19479c1aea128eb57"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.10-b.png",
+      "frame": 42376,
+      "sha256": "25ffea278102a81067c36de3457b87d9d43fdcb7d7a22a117ac15c173b0d4758"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.10-c.png",
+      "frame": 42406,
+      "sha256": "4e72af0b32b4a5d934a1ff6865b673dfeea14c24776f4d07c64ae7f3e102e7a2"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.10-d.png",
+      "frame": 43316,
+      "sha256": "e5e72872462404831c97cc939321387d8de20cf6a7fc770e7f64ef715cf733f3"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.10-e.png",
+      "frame": 44106,
+      "sha256": "63d3e91d73eb1314166ef14e974cf605924db6aa7cf46bc55a01b7e938e64db4"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.10-f.png",
+      "frame": 44206,
+      "sha256": "42b67d2d6b45ba5cd5dda115043d834bcc91aa0c7356a6959e7103d2235561d1"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.10-g.png",
+      "frame": 45260,
+      "sha256": "890dd906bed5386cd4390e6df740942098ca3a49de9fc03c4400756f1ea05b8d"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.10-h.png",
+      "frame": 45490,
+      "sha256": "3f97b32aba87cc8168e9f0a29d45a1f7f1f51c6fbf812549fb98e60fd8ac02aa"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.5-d.png",
+      "frame": 45683,
+      "sha256": "68eb154bd45687ec19bcfb24210b3770979b2b455e39c9a253e72fadce61ab3d"
+    },
+    {
+      "file": "variants/13-defense-turret-array/13b-longer-ray/evidence/step13-0.8.5-c.png",
+      "frame": 45683,
+      "sha256": "4d007d2c36ce485203f23cc92c165671c38b7b78e4bd086dc2859c7597a872c4"
+    }
+  ],
+  "file_loads": [
+    {
+      "frame": 23422,
+      "file": 2,
+      "plan": "sum",
+      "tries": [
+        {
+          "why": "the sum",
+          "cells": 20,
+          "seconds": 19.82
+        }
+      ],
+      "read_seconds": 18.87,
+      "turn_seconds": 41.68
+    },
+    {
+      "frame": 31072,
+      "file": 3,
+      "plan": null,
+      "tries": [],
+      "read_seconds": 19.65,
+      "turn_seconds": 20.53
+    },
+    {
+      "frame": 37674,
+      "file": 4,
+      "plan": null,
+      "tries": [],
+      "read_seconds": 19.42,
+      "turn_seconds": 20.13
+    },
+    {
+      "frame": 45683,
+      "file": 1,
+      "plan": "absent",
+      "tries": [
+        {
+          "why": "the bus (status $80)",
+          "cells": 0,
+          "seconds": 0.01
+        }
+      ],
+      "read_seconds": 23.43,
+      "turn_seconds": 26.27
+    },
+    {
+      "frame": 46100,
+      "file": 2,
+      "plan": null,
+      "tries": [],
+      "read_seconds": 19.72,
+      "turn_seconds": 20.71
+    },
+    {
+      "frame": 46210,
+      "file": 3,
+      "plan": null,
+      "tries": [],
+      "read_seconds": 19.66,
+      "turn_seconds": 20.55
+    },
+    {
+      "frame": 46320,
+      "file": 4,
+      "plan": null,
+      "tries": [],
+      "read_seconds": 19.42,
+      "turn_seconds": 20.11
+    },
+    {
+      "frame": 46430,
+      "file": 1,
+      "plan": null,
+      "tries": [],
+      "read_seconds": 22.35,
+      "turn_seconds": 23.16
+    }
+  ],
+  "turns_held": {
+    "turns": 0,
+    "by_kind": {}
+  },
+  "titles": 0,
+  "top_interrupt_on_line_21_after_get_src": [],
+  "seconds": 1249,
+  "checks": [
+    {
+      "check": "VIC-II bank 1 ($4000)",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "under the HUD: $d018 screen A, HUD's characters; $d016 multicolour, 38 columns, no scroll",
+      "pass": true,
+      "detail": "$d018=0x05 $d016=0xd0"
+    },
+    {
+      "check": "$d011: 25 rows, screen on",
+      "pass": true,
+      "detail": "0x1b"
+    },
+    {
+      "check": "colour registers under the HUD",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "sprites: no stretching; in front of the characters",
+      "pass": true,
+      "detail": "$d017=0x00"
+    },
+    {
+      "check": "playfield characters at $4800 (stars as the model)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD characters at $5000",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the 96 sprite blocks at $6000",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the packed levels in place ($d000, 6477 bytes, from 0.8.4 under the I/O and the KERNAL)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the title's module in place ($f800, 363 bytes, under the KERNAL: move_store, from the PRG's two pieces)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the files' drive: 8, the program not loaded from a drive ($ba = 1; from 1.0 in the whole games loaded from drive 8); file 1 (phase 1's) in the store (0.8.5)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the camera never waited for the back screen",
+      "pass": true,
+      "detail": "0 waits"
+    },
+    {
+      "check": "the route",
+      "pass": true,
+      "detail": "46549 frames"
+    },
+    {
+      "check": "camera, screen, stage, far column, scrolls as the model (46549 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the ship as the model (46549 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "both screens as the model (HUD) (46549 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "colour RAM as the model (46549 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the playfield's characters as the model (the stars; from 0.8 the boss's body and STAGE CLEAR's letters) (46549 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the boss as the model (its step, body, parts, bar) (46549 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the SHIELD CORE's variables as the model (arena_chars, the turn, the gap, the segments, the sphere's cells to do, the arena's cells kept) (23958 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the GRAVEYARD WARDEN's variables as the model (its ports, the guns' lives, the patches wanted and made, the rows shown, its colour, the body being made) (7760 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "rows 10-14's rock (rock_row, air_rock) as the model: never, but while the GRAVEYARD WARDEN is in level 3's arena, from 0.8.8 the VARKON CORVETTE in level 4's, from 0.8.10 the DEFENSE TURRET ARRAY in level 5's, from 0.8.12 the SUPER-COMPUTER VARKON in level 6's (22684 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the GRAVEYARD WARDEN's memory as the model (the arena's cells under it, kept; its drawing after the patches) (2878 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the VARKON CORVETTE's variables as the model (its turrets destroyed and their Varkon, the columns shown, its colours, its phases made, the body being made) (6712 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the VARKON CORVETTE's memory as the model (the arena's cells under its way, kept; its phases 1-3 once made) (2607 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the DEFENSE TURRET ARRAY's variables as the model (its turrets destroyed, their Varkon and lives, the rows in turn, the patches wanted and drawn, its rows drawn, its codes and pictures made, its ray, its colours) (8119 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the DEFENSE TURRET ARRAY's memory as the model (the arena's cells under its ray, kept; its parts' pictures over the level's) (67 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the level and its beams' cycle as the model (46549 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the keys I and L, the ship that cannot be hurt, the border as the model (46549 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the rock's table (rock_lines: not the scenery, the beams only when on) as the model (29402 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the level's tables unpacked at its start (LEVEL_W1, LEVEL_W2; from 0.8.4 its pictures) as its files (13 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "(0.8.12) at each level's start the Varkon's tables (the kinds, their shots, the segments') as its table set's, whatever file came before (13 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the objects in both banks as the model (46537 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the multiplexer's order, plan, lines, left out as the model (46537 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the Varkon, their shots, the waves as the model (46537 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the score, the best, the next ship as the model (46537 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the weapons, the shots, the missile, the satellite, the blast as the model (46537 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the sprites' registers and pointers as the model (46537 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the multiplexer's writes: after the sprite's object before, before its own line (66198 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the multiplexer's writes: all of the plan, every frame (46536 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the multiplexer's writes: the entry's place, ninth bit, pointers, colour as the model (66198 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no frame lost: frame_count +1 a turn (46536 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no frame lost: 19656 cycles from a turn to the next (CIA 2's timers, the test's clock) (46536 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "rows 0-9 of the next frame (stars, colour RAM): after the beam drew them, before it draws them again (42015 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "colour RAM rows 15-21, in the swap: row R moved before row R (16632 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "every swap: its rows 0-9 moved in the frame before (2376 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "far rows moved before row 11 (1186 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "sprites written before line 50 (46537 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "near scroll and colours on line 20 (from 0.9 on line 21 too, when the interrupt waited for get_src's sei: the store's byte read under the I/O) (1391 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "far scroll and screen A in row 10 (lines 131-138) (1391 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "near scroll and the screen shown in row 14 (lines 163-170) (1391 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the SID's copy into the SID at the top, lines 20-24 (1391 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the sound as the model: the SID's copy, the voices of the music, the effects (46548 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD's $d018 in the border, 226-227 (1391 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD's $d016 before the badline of 227 (1391 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "capture equals the reference picture (46536 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "a file from the disk only when the level's file is not in the store, as the model (8 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "a file's load: its records in place, byte for byte; file_now; the KERNAL out ($01 = $35) (8 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "a file with a wrong sum (spoiled by the test as it comes): read whole, refused, INSERT THE DISK, read again (1 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the drive not answering (the files' drive written 9: none there): refused before a byte of the file, INSERT THE DISK, read when it answers (1 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "a file from the right disk at the first try (6 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "a file's load: the game's pages 0, 2 and 3 given back, as they were when the try that read the file began (8 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the SID silent while a file loads (its volume 0: VICE's monitor reads the last value written) (8 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the loading screen seen with its bar half full, and INSERT THE DISK when the file did not come right (8 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the loading screen: PHASE n, its name (the file's phase), the bar as far as the file came, LOADING; INSERT THE DISK when it did not come right; shown on screen A with the HUD's characters (10 times)",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "end": {
+    "camera": 59,
+    "level": 0,
+    "lives": 1,
+    "ship_type": 2,
+    "score": 999990,
+    "best": 999990,
+    "arena_frame": 5768,
+    "hud": [
+      "????????????????????????????????????????",
+      "  SCORE 999990  HI 999990    VARKONIA   ",
+      "  SHIELD ?????? WEAPON ????  SHIPS ?    "
+    ]
+  },
+  "result": "PASS"
+}

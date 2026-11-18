@@ -1,0 +1,787 @@
+{
+  "step": 14,
+  "program": "variants/14-super-computer/14x-bar-not-told/game/build/test/starbraze2.prg",
+  "prg_bytes": 48688,
+  "prg_sha256": "144aebd3e7883f2605257adfbf007cc85d3b60cd69fb49edd0e44c4a8c931a82",
+  "vice": "/usr/local/bin/x64sc",
+  "frames": 5849,
+  "events": {
+    "swap": 512,
+    "hold": 0,
+    "far": 256,
+    "restart": 1,
+    "gameover": 0
+  },
+  "ship_events": {
+    "shot 0 fired": 157,
+    "weapon 1.1 fires": 57,
+    "Fire: no room for the volley": 875,
+    "Fire with four shots flying": 875,
+    "shot 0 past the edge": 113,
+    "pushed down from the overhang": 4,
+    "on the rock while blinking: no damage": 7,
+    "shot 0 half 0 on the rock": 13,
+    "shot 0 half 1 on the rock": 11,
+    "two notches lost": 6,
+    "pushed up from the floor": 3,
+    "exploded": 4,
+    "a ship lost: in again from the left": 4,
+    "shot 1 fired": 28,
+    "weapon 2.1 fires": 28,
+    "shot 1 past the edge": 11,
+    "shot 1 half 0 on the rock": 14,
+    "pushed back from a wall": 6,
+    "shot 2 fired": 91,
+    "weapon 3.1 fires": 91,
+    "shot 2 half 0 on the rock": 4,
+    "shot 2 past the edge": 62,
+    "no ships left: three more": 1,
+    "the ship in again after the key L": 1,
+    "capsule W taken": 2,
+    "weapon 1.2 fires": 100,
+    "capsule S taken": 1,
+    "shot 8 fired": 161,
+    "weapon 2.2 fires": 161,
+    "shot 8 half 0 on the rock": 10,
+    "shot 8 half 1 on the rock": 10,
+    "shot 8 past the edge": 131,
+    "capsule M taken": 1,
+    "missile away": 49,
+    "a weapon level lost": 1,
+    "missile lands": 57,
+    "missile follows the floor": 42,
+    "missile on a wall": 26,
+    "missile off a drop": 13,
+    "a ship more": 1,
+    "missile on a wall, falling": 2,
+    "shot 9 fired": 57,
+    "weapon 3.2 fires": 57,
+    "missile past the edge": 16,
+    "capsule E taken": 1,
+    "capsule E past its most: the bonus": 1,
+    "capsule E past its most: 500 points": 1,
+    "capsule O taken": 1,
+    "the satellite catches up, left": 45,
+    "the satellite catches up, up": 18,
+    "the satellite: no place left": 56,
+    "the satellite fires": 6,
+    "the satellite catches up, down": 10,
+    "shot 14 past the edge": 5,
+    "shot 9 past the edge": 47
+  },
+  "varkon_events": {
+    "Varkon 0 in": 45,
+    "Varkon 0 fires": 62,
+    "shot 0 on a Varkon": 34,
+    "Varkon 0 shot down": 22,
+    "explosion over": 80,
+    "Varkon 1 in": 26,
+    "plasma gone": 112,
+    "Varkon 1 fires": 24,
+    "Varkon 5 in": 9,
+    "Varkon 5 hit": 6,
+    "Varkon 1 shot down": 19,
+    "Varkon 5 fires": 8,
+    "Varkon 3 in": 10,
+    "leaper hops": 34,
+    "Varkon 3 fires": 13,
+    "Varkon gone left": 29,
+    "Varkon 3 hit": 5,
+    "Varkon 3 shot down": 9,
+    "Varkon 2 in": 21,
+    "shot 1 on a Varkon": 3,
+    "Varkon 2 shot down": 17,
+    "shot 2 on a Varkon": 25,
+    "Varkon shot: no free place": 3,
+    "Varkon 4 in": 5,
+    "Varkon 4 hit": 7,
+    "turret fires left": 10,
+    "Varkon 4 fires": 14,
+    "Varkon 4 shot down": 4,
+    "plasma on the ship": 5,
+    "Varkon 5 shot down": 7,
+    "capsule M left": 2,
+    "Varkon 4 on the ship": 1,
+    "capsule W left": 2,
+    "capsule S left": 1,
+    "shot 8 on a Varkon": 23,
+    "missile on a Varkon": 4,
+    "turret fires up": 2,
+    "turret fires right": 2,
+    "missile on a Varkon: destroyed": 3,
+    "Varkon 0 on the ship": 1,
+    "shot 9 on a Varkon": 6,
+    "capsule E left": 1,
+    "capsule O left": 1,
+    "shot 14 on a Varkon": 1
+  },
+  "sound_events": {
+    "song 0 from its start": 4,
+    "shot_double on voice 3": 14,
+    "music in MUSIC + FX": 1040,
+    "music: a step": 857,
+    "music: a note, its first waveform $40": 780,
+    "music: a note, its first waveform $80": 138,
+    "plasma on voice 3": 12,
+    "shot_double kept off voice 3": 7,
+    "boom on voice 3": 15,
+    "hurt on voice 3": 2,
+    "explode on voice 3": 2,
+    "plasma kept off voice 3": 3,
+    "boom kept off voice 3": 2,
+    "mode SOUND FX": 2,
+    "plasma on voice 2": 12,
+    "shot_double on voice 1": 9,
+    "boom on voice 2": 10,
+    "plasma kept off voice 2": 3,
+    "shot_needle on voice 1": 28,
+    "shot_slug on voice 1": 50,
+    "mode SILENT": 1,
+    "mode MUSIC": 2,
+    "music in MUSIC": 2821,
+    "music: a note, its first waveform $20": 34,
+    "the song again": 3,
+    "mode MUSIC + FX": 1,
+    "shot_needle on voice 3": 72,
+    "shot_needle kept off voice 3": 38,
+    "missile on voice 3": 7,
+    "capsule on voice 3": 2,
+    "missile kept off voice 3": 4,
+    "shot_slug on voice 3": 1,
+    "missile on voice 1": 8
+  },
+  "boss_events": {
+    "the arena": 1,
+    "the boss comes": 1,
+    "the body flips": 15
+  },
+  "escape_events": {},
+  "escape_frames_not_compared_as_pictures": {
+    "frames": 0,
+    "first": [],
+    "last": []
+  },
+  "multiplexer": {
+    "frames": 5848,
+    "left out": 2051,
+    "crowded": 2051,
+    "left out: the object itself": 754,
+    "left out: an entry, for a later one": 1297,
+    "most shown": 17,
+    "most objects": 17,
+    "frames with some left out": 1019,
+    "left_out_by_class": {
+      "ship's shots": 987,
+      "Varkon": 913,
+      "Varkon's shots": 151
+    }
+  },
+  "cycles_from_joy_ready_to_frame_ready": {
+    "arena, body 0-7": {
+      "turns": 15,
+      "max_cycles": 10669,
+      "min_cycles": 10103
+    },
+    "arena, body 8-14, flip": {
+      "turns": 15,
+      "max_cycles": 11098,
+      "min_cycles": 9887
+    },
+    "arena, none": {
+      "turns": 50,
+      "max_cycles": 8581,
+      "min_cycles": 5238
+    },
+    "stage 0": {
+      "turns": 513,
+      "max_cycles": 13140,
+      "min_cycles": 4901
+    },
+    "stage 1": {
+      "turns": 513,
+      "max_cycles": 13675,
+      "min_cycles": 4972
+    },
+    "stage 2": {
+      "turns": 513,
+      "max_cycles": 13584,
+      "min_cycles": 4995
+    },
+    "stage 3": {
+      "turns": 512,
+      "max_cycles": 15617,
+      "min_cycles": 5218
+    },
+    "stage 4": {
+      "turns": 512,
+      "max_cycles": 14002,
+      "min_cycles": 4613
+    },
+    "stage 5": {
+      "turns": 512,
+      "max_cycles": 14077,
+      "min_cycles": 4827
+    },
+    "stage 6": {
+      "turns": 256,
+      "max_cycles": 11799,
+      "min_cycles": 4325
+    },
+    "stage 6 + far": {
+      "turns": 256,
+      "max_cycles": 14311,
+      "min_cycles": 5168
+    },
+    "stage waits": {
+      "turns": 1668,
+      "max_cycles": 11294,
+      "min_cycles": 3388
+    },
+    "swap": {
+      "turns": 512,
+      "max_cycles": 15214,
+      "min_cycles": 5095
+    }
+  },
+  "deadlines_smallest_margin": {
+    "the multiplexer's writes: after the sprite's object before, before its own line": {
+      "margin_lines": 1,
+      "line": 92,
+      "deadline_line": 94,
+      "frame": 486
+    },
+    "rows 0-9 of the next frame (stars, colour RAM): after the beam drew them, before it draws them again": {
+      "margin_lines": 194,
+      "line": 169,
+      "deadline_line": 51,
+      "frame": 1789
+    },
+    "colour RAM rows 15-21, in the swap: row R moved before row R": {
+      "margin_lines": 147,
+      "line": 24,
+      "deadline_line": 171,
+      "frame": 2704
+    },
+    "far rows moved before row 11": {
+      "margin_lines": 77,
+      "line": 62,
+      "deadline_line": 139,
+      "frame": 2695
+    },
+    "sprites written before line 50": {
+      "margin_lines": 34,
+      "line": 16,
+      "deadline_line": 50,
+      "frame": 3200
+    }
+  },
+  "multiplexer_write_lines_after_its_start": {
+    "lines": 4,
+    "line": 135,
+    "frame": 882,
+    "entry": 8,
+    "allowed": 4
+  },
+  "ahead_end": {
+    "lines_before_227": 41,
+    "line": 186,
+    "frame": 4887
+  },
+  "rows_0_9_in_a_level_start_turn": 0,
+  "turn_cycles": {
+    "turns": 5846,
+    "min": 19649,
+    "max": 19662
+  },
+  "sound_cycles": {
+    "frames": 5848,
+    "max": 3051,
+    "mean": 615
+  },
+  "colours_at_once": {
+    "turns": 512,
+    "first": [
+      [
+        15,
+        9
+      ],
+      [
+        31,
+        9
+      ],
+      [
+        47,
+        9
+      ],
+      [
+        63,
+        9
+      ],
+      [
+        79,
+        9
+      ]
+    ]
+  },
+  "ahead_end_by_turn": {
+    "arena, body 0-7": {
+      "lines_before_227": 122,
+      "line": 105,
+      "frame": 5837
+    },
+    "arena, body 8-14, flip": {
+      "lines_before_227": 118,
+      "line": 109,
+      "frame": 5840
+    },
+    "arena, none": {
+      "lines_before_227": 158,
+      "line": 69,
+      "frame": 5817
+    },
+    "stage 0": {
+      "lines_before_227": 44,
+      "line": 183,
+      "frame": 425
+    },
+    "stage 1": {
+      "lines_before_227": 47,
+      "line": 180,
+      "frame": 4938
+    },
+    "stage 2": {
+      "lines_before_227": 64,
+      "line": 163,
+      "frame": 4859
+    },
+    "stage 3": {
+      "lines_before_227": 42,
+      "line": 185,
+      "frame": 3200
+    },
+    "stage 4": {
+      "lines_before_227": 55,
+      "line": 172,
+      "frame": 429
+    },
+    "stage 5": {
+      "lines_before_227": 42,
+      "line": 185,
+      "frame": 4878
+    },
+    "stage 6": {
+      "lines_before_227": 106,
+      "line": 121,
+      "frame": 3190
+    },
+    "stage 6 + far": {
+      "lines_before_227": 53,
+      "line": 174,
+      "frame": 3110
+    },
+    "stage 6 + far, before a swap": {
+      "lines_before_227": 41,
+      "line": 186,
+      "frame": 4887
+    },
+    "stage 6, before a swap": {
+      "lines_before_227": 59,
+      "line": 168,
+      "frame": 2719
+    },
+    "stage waits": {
+      "lines_before_227": 45,
+      "line": 182,
+      "frame": 5293
+    },
+    "stage waits, before a swap": {
+      "lines_before_227": 60,
+      "line": 167,
+      "frame": 1783
+    },
+    "swap": {
+      "lines_before_227": 46,
+      "line": 181,
+      "frame": 2744
+    }
+  },
+  "ahead_end_by_level": {
+    "level 1": {
+      "lines_before_227": 41,
+      "line": 186,
+      "frame": 4887
+    }
+  },
+  "captures": [
+    {
+      "file": "variants/14-super-computer/14x-bar-not-told/evidence/step14-a.png",
+      "frame": 60,
+      "sha256": "e0ad80f630da932e5ad5ccbc97a40c76a514eae625ee25daf89e371c7cc68eca"
+    },
+    {
+      "file": "variants/14-super-computer/14x-bar-not-told/evidence/step14-b.png",
+      "frame": 900,
+      "sha256": "5f89755fb7401b8cfb7ca904c414baa773c36e2dd704fff44b761b0bb11ccb11"
+    },
+    {
+      "file": "variants/14-super-computer/14x-bar-not-told/evidence/bar-not-told.png",
+      "frame": 5849,
+      "sha256": "d7d450445e1a696cc2e82f186536774c9d4fd4e7cde9f66318a6e403539b68ae"
+    }
+  ],
+  "file_loads": [],
+  "turns_held": {
+    "turns": 0,
+    "by_kind": {}
+  },
+  "titles": 0,
+  "top_interrupt_on_line_21_after_get_src": [],
+  "seconds": 109,
+  "checks": [
+    {
+      "check": "VIC-II bank 1 ($4000)",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "under the HUD: $d018 screen A, HUD's characters; $d016 multicolour, 38 columns, no scroll",
+      "pass": true,
+      "detail": "$d018=0x05 $d016=0xd0"
+    },
+    {
+      "check": "$d011: 25 rows, screen on",
+      "pass": true,
+      "detail": "0x1b"
+    },
+    {
+      "check": "colour registers under the HUD",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "sprites: no stretching; in front of the characters",
+      "pass": true,
+      "detail": "$d017=0x00"
+    },
+    {
+      "check": "playfield characters at $4800 (stars as the model)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD characters at $5000",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the 96 sprite blocks at $6000",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the packed levels in place ($d000, 6477 bytes, from 0.8.4 under the I/O and the KERNAL)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the title's module in place ($f800, 363 bytes, under the KERNAL: move_store, from the PRG's two pieces)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the files' drive: 8, the program not loaded from a drive ($ba = 1; from 1.0 in the whole games loaded from drive 8); file 1 (phase 1's) in the store (0.8.5)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the route, to the first failure (--fail-fast, frame 5849)",
+      "pass": false,
+      "detail": "both screens as the model (HUD): frame 5818: cell 949 (row 23, column 29): 44 instead of 45"
+    },
+    {
+      "check": "camera, screen, stage, far column, scrolls as the model (5848 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the ship as the model (5848 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "both screens as the model (HUD) (5848 times)",
+      "pass": false,
+      "detail": "31 failed: frame 5818: cell 949 (row 23, column 29): 44 instead of 45; frame 5819: cell 949 (row 23, column 29): 44 instead of 46; frame 5820: cell 949 (row 23, column 29): 44 instead of 47; frame 5821: cell 949 (row 23, column 29): 44 instead of 48; frame 5822: cell 949 (row 23, column 29): 44 instead of 49"
+    },
+    {
+      "check": "colour RAM as the model (5848 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the playfield's characters as the model (the stars; from 0.8 the boss's body and STAGE CLEAR's letters) (5848 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the boss as the model (its step, body, parts, bar) (5848 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the SHIELD CORE's variables as the model (arena_chars, the turn, the gap, the segments, the sphere's cells to do, the arena's cells kept) (5848 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the GRAVEYARD WARDEN's variables as the model (its ports, the guns' lives, the patches wanted and made, the rows shown, its colour, the body being made) (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "rows 10-14's rock (rock_row, air_rock) as the model: never, but while the GRAVEYARD WARDEN is in level 3's arena, from 0.8.8 the VARKON CORVETTE in level 4's, from 0.8.10 the DEFENSE TURRET ARRAY in level 5's, from 0.8.12 the SUPER-COMPUTER VARKON in level 6's (22 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the GRAVEYARD WARDEN's memory as the model (the arena's cells under it, kept; its drawing after the patches) (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "the VARKON CORVETTE's variables as the model (its turrets destroyed and their Varkon, the columns shown, its colours, its phases made, the body being made) (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "the VARKON CORVETTE's memory as the model (the arena's cells under its way, kept; its phases 1-3 once made) (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "the DEFENSE TURRET ARRAY's variables as the model (its turrets destroyed, their Varkon and lives, the rows in turn, the patches wanted and drawn, its rows drawn, its codes and pictures made, its ray, its colours) (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "the DEFENSE TURRET ARRAY's memory as the model (the arena's cells under its ray, kept; its parts' pictures over the level's) (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "the SUPER-COMPUTER VARKON's variables as the model (the ring whose turn it is, its angle, its plates' Varkon; the elements shown, wanted, drawn; the housing's and the area's rows; its codes and pictures made; ENTER's step; the rings' and the turrets' cycle; the core's shot; the lights; its colours; the turrets; the core's fan; the cells to draw) (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "the SUPER-COMPUTER VARKON's memory as the model (its parts' pictures over the level's) (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "the level and its beams' cycle as the model (5848 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the keys I and L, the ship that cannot be hurt, the border as the model (5848 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the rock's table (rock_lines: not the scenery, the beams only when on) as the model (24 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the level's tables unpacked at its start (LEVEL_W1, LEVEL_W2; from 0.8.4 its pictures) as its files (2 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "(0.8.12) at each level's start the Varkon's tables (the kinds, their shots, the segments') as its table set's, whatever file came before (2 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the objects in both banks as the model (5847 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the multiplexer's order, plan, lines, left out as the model (5847 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the Varkon, their shots, the waves as the model (5847 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the score, the best, the next ship as the model (5847 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the weapons, the shots, the missile, the satellite, the blast as the model (5847 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the sprites' registers and pointers as the model (5847 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the multiplexer's writes: after the sprite's object before, before its own line (8546 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the multiplexer's writes: all of the plan, every frame (5846 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the multiplexer's writes: the entry's place, ninth bit, pointers, colour as the model (8546 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no frame lost: frame_count +1 a turn (5846 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "no frame lost: 19656 cycles from a turn to the next (CIA 2's timers, the test's clock) (5846 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "rows 0-9 of the next frame (stars, colour RAM): after the beam drew them, before it draws them again (8961 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "colour RAM rows 15-21, in the swap: row R moved before row R (3584 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "every swap: its rows 0-9 moved in the frame before (512 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "far rows moved before row 11 (256 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "sprites written before line 50 (5847 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "near scroll and colours on line 20 (from 0.9 on line 21 too, when the interrupt waited for get_src's sei: the store's byte read under the I/O) (324 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "far scroll and screen A in row 10 (lines 131-138) (324 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "near scroll and the screen shown in row 14 (lines 163-170) (324 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the SID's copy into the SID at the top, lines 20-24 (324 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "the sound as the model: the SID's copy, the voices of the music, the effects (5848 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD's $d018 in the border, 226-227 (324 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "HUD's $d016 before the badline of 227 (324 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "capture equals the reference picture (5846 times)",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "a file from the disk only when the level's file is not in the store, as the model (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "a file's load: its records in place, byte for byte; file_now; the KERNAL out ($01 = $35) (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "a file with a wrong sum (spoiled by the test as it comes): read whole, refused, INSERT THE DISK, read again (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "the drive not answering (the files' drive written 9: none there): refused before a byte of the file, INSERT THE DISK, read when it answers (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "a file from the right disk at the first try (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "a file's load: the game's pages 0, 2 and 3 given back, as they were when the try that read the file began (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "the SID silent while a file loads (its volume 0: VICE's monitor reads the last value written) (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "the loading screen seen with its bar half full, and INSERT THE DISK when the file did not come right (0 times)",
+      "pass": false,
+      "detail": ""
+    },
+    {
+      "check": "the loading screen: PHASE n, its name (the file's phase), the bar as far as the file came, LOADING; INSERT THE DISK when it did not come right; shown on screen A with the HUD's characters (0 times)",
+      "pass": false,
+      "detail": ""
+    }
+  ],
+  "end": {
+    "camera": 2880,
+    "level": 0,
+    "lives": 3,
+    "ship_type": 2,
+    "score": 25100,
+    "best": 25100,
+    "arena_frame": 5768,
+    "hud": [
+      "????????????????????????????????????????",
+      "  SCORE 025100  HI 025100    ????????   ",
+      "  SHIELD ?????? WEAPON ????  SHIPS ???  "
+    ]
+  },
+  "result": "FAIL"
+}
